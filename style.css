@@ -1,3 +1,23 @@
+body header nav .header1 .nav-name, body header nav .navigation-bar ul li .nav-name, body main .first-page .image-articles .article-bio .main-name, body main .second-page .img-about .about-page .h1-about {
+  font-family: roboto, arial, helvetica;
+  font-size: 2.5rem;
+  font-weight: 550;
+  letter-spacing: 3px;
+  text-transform: capitalize;
+  transform: scale(1, 2);
+  text-shadow: 1px 1px 3px black;
+  opacity: 0.8;
+}
+
+body main .first-page .image-articles .article-bio hr, body main .second-page .img-about .about-page hr {
+  border: none;
+  height: 5px;
+  width: 20%;
+  margin-bottom: 20px;
+  background-color: #e9b949;
+  margin-left: 10px;
+}
+
 *,
 *::before,
 *::after {
@@ -93,17 +113,6 @@ video {
   vertical-align: baseline;
 }
 
-body main .first-page .image-articles .article-bio .main-name, body header nav .header1 .nav-name, body header nav .navigation-bar ul li .nav-name {
-  font-family: roboto, arial, helvetica;
-  font-size: 1.5rem;
-  font-weight: 550;
-  letter-spacing: 3px;
-  text-transform: capitalize;
-  transform: scale(1, 2);
-  text-shadow: 1px 1px 3px black;
-  opacity: 0.8;
-}
-
 body {
   background-color: #fffaeb;
 }
@@ -174,18 +183,11 @@ body main .first-page .image-articles {
   display: grid;
   gap: 1.5em;
   grid-template-columns: repeat(2, 1fr);
+  place-items: center;
 }
 body main .first-page .image-articles .article-bio {
-  margin-top: 10em;
+  margin-top: 1em;
   margin-left: 11em;
-}
-body main .first-page .image-articles .article-bio hr {
-  border: none;
-  height: 5px;
-  width: 20%;
-  margin-bottom: 20px;
-  background-color: #e9b949;
-  margin-left: 10px;
 }
 body main .first-page .image-articles .article-bio .main-name {
   font-size: 2.5rem;
@@ -254,19 +256,16 @@ body main .first-page .image-articles .article-bio .icons i:hover {
   color: #e9b949;
   cursor: pointer;
 }
-body main .first-page .image-articles .article-img {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-body main .first-page .image-articles .article-img .border-img {
+body main .first-page .image-articles .border-img {
+  margin-left: 80px;
+  margin-top: 50px;
   border: 7px solid #e9b949;
-  width: 50%;
-  height: 65%;
+  width: 390px;
+  height: 550px;
   border-radius: 3%;
   position: relative;
 }
-body main .first-page .image-articles .article-img .border-img .my-img {
+body main .first-page .image-articles .border-img .my-img {
   border-radius: 3%;
   left: -40px;
   top: -30px;
@@ -274,16 +273,76 @@ body main .first-page .image-articles .article-img .border-img .my-img {
   width: 100%;
   height: 100%;
 }
+body main header nav .header1 .nav-name, body header nav .header1 main .nav-name, body main header nav .navigation-bar ul li .nav-name, body header nav .navigation-bar ul li main .nav-name, body main .first-page .image-articles .article-bio .main-name, body main .second-page .img-about .about-page .h1-about {
+  font-family: roboto, arial, helvetica;
+  font-size: 2.5rem;
+  font-weight: 550;
+  letter-spacing: 3px;
+  text-transform: capitalize;
+  transform: scale(1, 2);
+  text-shadow: 1px 1px 3px black;
+  opacity: 0.8;
+}
+body main .first-page .image-articles .article-bio hr, body main .second-page .img-about .about-page hr {
+  border: none;
+  height: 5px;
+  width: 20%;
+  margin-bottom: 20px;
+  background-color: #e9b949;
+  margin-left: 10px;
+}
 body main .second-page {
   background-color: #ffffff;
   height: 100vh;
+  padding-top: 220px;
 }
 body main .second-page .img-about {
   width: 80%;
   margin: auto;
   display: grid;
-  gap: 1.5em;
-  grid-template-columns: repeat(2, 1fr);
+  gap: 5em;
+  grid-template-columns: repeat(3, 1fr);
+  place-items: center;
+}
+body main .second-page .img-about .border-about-image {
+  position: relative;
+  border: 6px solid #e9b949;
+  width: 390px;
+  height: 520px;
+  border-radius: 3%;
+}
+body main .second-page .img-about .border-about-image img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: 30px;
+  right: -30px;
+  border-radius: 3%;
+}
+body main .second-page .img-about .about-page {
+  grid-column: span 2;
+}
+body main .second-page .img-about .about-page .h1-about {
+  letter-spacing: 0.8rem;
+  font-size: 2.6rem;
+  transform: none;
+  text-shadow: none;
+}
+body main .second-page .img-about .about-page hr {
+  margin-left: 0;
+  margin-bottom: 40px;
+}
+body main .second-page .img-about .about-page .para {
+  text-indent: 5%;
+  color: hsl(210deg, 22%, 49%);
+  line-height: 2rem;
+  font-size: 1.4rem;
+}
+body main .second-page .img-about .about-page .para .specialisation {
+  margin-bottom: 5px;
+}
+body main .second-page .img-about .about-page .para div {
+  margin-left: -67px;
 }
 
 /*# sourceMappingURL=style.css.map */

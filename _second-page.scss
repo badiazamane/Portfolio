@@ -1,0 +1,57 @@
+@use "definition/definition";
+.second-page {
+  background-color: #ffffff;
+  height: 100vh;
+  padding-top: 220px;
+  .img-about {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    gap: 5em;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    .border-about-image {
+      position: relative;
+      border: 6px solid #e9b949;
+      width: 390px;
+      height: 520px;
+      border-radius: 3%;
+      img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        bottom: 30px;
+        right: -30px;
+        border-radius: 3%;
+        // object-fit: contain;
+      }
+    }
+    .about-page {
+      grid-column: span 2;
+      .h1-about {
+        @extend %h1;
+        letter-spacing: 0.8rem;
+        font-size: 2.6rem;
+        transform: none;
+        text-shadow: none;
+      }
+      hr {
+        @extend %hr;
+        margin-left: 0;
+        margin-bottom: 40px;
+      }
+      .para {
+        text-indent: 5%;
+        color: definition.$paragraph-color;
+        line-height: 2rem;
+        font-size: 1.4rem;
+        .specialisation {
+          margin-bottom: 5px;
+        }
+        div {
+          margin-left: -67px;
+        }
+      }
+    }
+  }
+}

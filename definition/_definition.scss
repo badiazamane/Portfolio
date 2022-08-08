@@ -1,0 +1,22 @@
+$font-family-headers: roboto, arial, helvetica;
+$font-family-headers-four: Arial, Helvetica, sans-serif;
+$paragraph-color: hsl(210, 22%, 49%);
+%h1 {
+  font-family: $font-family-headers;
+  font-size: 2.5rem;
+  font-weight: 550;
+  letter-spacing: 3px;
+  text-transform: capitalize;
+  //   text-align: center;
+  transform: scale(1, 2);
+  text-shadow: 1px 1px 3px black;
+  opacity: 0.8;
+}
+%hr {
+  border: none;
+  height: 5px;
+  width: 20%;
+  margin-bottom: 20px;
+  background-color: #e9b949;
+  margin-left: 10px;
+}
