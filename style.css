@@ -93,7 +93,7 @@ video {
   vertical-align: baseline;
 }
 
-body main .image-articles .article-bio .main-name, body header nav .header1 .nav-name, body header nav .navigation-bar ul li .nav-name {
+body main .first-page .image-articles .article-bio .main-name, body header nav .header1 .nav-name, body header nav .navigation-bar ul li .nav-name {
   font-family: roboto, arial, helvetica;
   font-size: 1.5rem;
   font-weight: 550;
@@ -109,6 +109,12 @@ body {
 }
 body header {
   padding: 20px 0px;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  padding: 10px 20px;
+  width: 100%;
+  margin: auto;
 }
 body header nav {
   display: flex;
@@ -125,6 +131,9 @@ body header nav .header1, body header nav .navigation-bar ul li {
   justify-content: center;
   height: 100%;
 }
+body header nav .header1 .nav-name, body header nav .navigation-bar ul li .nav-name {
+  font-size: 1.7rem;
+}
 body header nav .header1 .nav-name span, body header nav .navigation-bar ul li .nav-name span {
   color: #e9b949;
 }
@@ -138,7 +147,7 @@ body header nav .navigation-bar ul {
   grid-template-columns: repeat(4, 1fr);
 }
 body header nav .navigation-bar ul li {
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   letter-spacing: 3px;
   font-weight: 500;
   font-family: roboto, arial, helvetica;
@@ -152,21 +161,25 @@ body header nav .navigation-bar ul li a:hover {
   transition: color 1s;
   color: #e9b949;
 }
-body main {
+body main .first-page {
+  height: 90vh;
   width: 80%;
   margin: auto;
+  position: relative;
+  z-index: 0;
 }
-body main .image-articles {
+body main .first-page .image-articles {
+  margin-top: 140px;
   height: 650px;
   display: grid;
   gap: 1.5em;
   grid-template-columns: repeat(2, 1fr);
 }
-body main .image-articles .article-bio {
+body main .first-page .image-articles .article-bio {
   margin-top: 10em;
-  margin-left: 13em;
+  margin-left: 11em;
 }
-body main .image-articles .article-bio hr {
+body main .first-page .image-articles .article-bio hr {
   border: none;
   height: 5px;
   width: 20%;
@@ -174,13 +187,13 @@ body main .image-articles .article-bio hr {
   background-color: #e9b949;
   margin-left: 10px;
 }
-body main .image-articles .article-bio .main-name {
+body main .first-page .image-articles .article-bio .main-name {
   font-size: 2.5rem;
   letter-spacing: 4px;
   padding: 10px;
   opacity: 0.8;
 }
-body main .image-articles .article-bio h4 {
+body main .first-page .image-articles .article-bio h4 {
   margin-top: 15px;
   padding: 10px;
   opacity: 0.7;
@@ -191,10 +204,10 @@ body main .image-articles .article-bio h4 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
 }
-body main .image-articles .article-bio .button-hire-me {
+body main .first-page .image-articles .article-bio .button-hire-me {
   border-radius: 5px;
   letter-spacing: 1.5px;
-  font-family: roboto, arial, helvetica;
+  font-family: montserrat;
   text-align: center;
   text-transform: uppercase;
   background-color: #e9b949;
@@ -204,62 +217,73 @@ body main .image-articles .article-bio .button-hire-me {
   color: rgb(48, 47, 47);
   font-size: 1.1rem;
 }
-body main .image-articles .article-bio .button-hire-me:hover {
+body main .first-page .image-articles .article-bio .button-hire-me:hover {
   transition: color 1s;
   background-color: #ecca7a;
 }
-body main .image-articles .article-bio .icons {
+body main .first-page .image-articles .article-bio .icons {
   margin-top: 50px;
   margin-left: -20px;
 }
-body main .image-articles .article-bio .icons .icon-1 {
+body main .first-page .image-articles .article-bio .icons .icon-1 {
   text-decoration: none;
   color: black;
 }
-body main .image-articles .article-bio .icons .icon-2 {
+body main .first-page .image-articles .article-bio .icons .icon-2 {
   text-decoration: none;
   color: black;
 }
-body main .image-articles .article-bio .icons .icon-3 {
+body main .first-page .image-articles .article-bio .icons .icon-3 {
   text-decoration: none;
   color: black;
 }
-body main .image-articles .article-bio .icons .icon-4 {
+body main .first-page .image-articles .article-bio .icons .icon-4 {
   text-decoration: none;
   color: black;
 }
-body main .image-articles .article-bio .icons .icon-5 {
+body main .first-page .image-articles .article-bio .icons .icon-5 {
   text-decoration: none;
   color: black;
 }
-body main .image-articles .article-bio .icons i {
+body main .first-page .image-articles .article-bio .icons i {
   opacity: 0.8;
   font-size: 2.2em;
   padding: 20px 30px;
 }
-body main .image-articles .article-bio .icons i:hover {
+body main .first-page .image-articles .article-bio .icons i:hover {
   color: #e9b949;
   cursor: pointer;
 }
-body main .image-articles .article-img {
+body main .first-page .image-articles .article-img {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-body main .image-articles .article-img .border-img {
+body main .first-page .image-articles .article-img .border-img {
   border: 7px solid #e9b949;
   width: 50%;
   height: 65%;
   border-radius: 3%;
   position: relative;
 }
-body main .image-articles .article-img .border-img .my-img {
+body main .first-page .image-articles .article-img .border-img .my-img {
   border-radius: 3%;
   left: -40px;
   top: -30px;
   position: absolute;
   width: 100%;
   height: 100%;
+}
+body main .second-page {
+  background-color: #ffffff;
+  height: 100vh;
+}
+body main .second-page .img-about {
+  width: 80%;
+  margin: auto;
+  display: grid;
+  gap: 1.5em;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 /*# sourceMappingURL=style.css.map */
