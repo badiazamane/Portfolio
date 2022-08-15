@@ -114,7 +114,7 @@ video {
 }
 
 body {
-  -moz-transform: scale(0.8, 0.8); /* Moz-browsers */
+  -moz-transform: scale(1, 1); /* Moz-browsers */
   zoom: 0.9; /* Other non-webkit browsers */
   zoom: 90%;
   background-color: #fffaeb;
