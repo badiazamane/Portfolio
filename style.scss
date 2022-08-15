@@ -4,7 +4,6 @@ $font-family-headers: roboto, arial, helvetica;
 $font-family-headers-four: Arial, Helvetica, sans-serif;
 
 body {
-  -moz-transform: scale(0.8, 0.8); /* Moz-browsers */
   zoom: 0.8; /* Other non-webkit browsers */
   zoom: 80%;
   background-color: #fffaeb;
