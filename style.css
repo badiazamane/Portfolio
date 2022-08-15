@@ -114,8 +114,8 @@ video {
 }
 
 body {
-  zoom: 0.8; /* Other non-webkit browsers */
-  zoom: 80%;
+  zoom: 0.9; /* Other non-webkit browsers */
+  zoom: 90%;
   background-color: #fffaeb;
 }
 body header {
