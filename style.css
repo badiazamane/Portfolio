@@ -114,7 +114,8 @@ video {
 }
 
 body {
-  background-color: #fffaeb;
+  zoom: 50%;
+  background-color: #090806;
 }
 body header {
   padding: 20px 0px;
