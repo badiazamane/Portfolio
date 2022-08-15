@@ -4,9 +4,9 @@ $font-family-headers: roboto, arial, helvetica;
 $font-family-headers-four: Arial, Helvetica, sans-serif;
 
 body {
-  -moz-transform: scale(1, 1); /* Moz-browsers */
+  -moz-transform: scale(1, 0.8);
   zoom: 0.9; /* Other non-webkit browsers */
-  zoom: 90%;
+  zoom: 80%;
   background-color: #fffaeb;
   header {
     padding: 20px 0px;
@@ -68,7 +68,7 @@ body {
   }
   main {
     .first-page {
-      height: 90vh;
+      height: 115vh;
       width: 80%;
       margin: auto;
       position: relative;

@@ -114,9 +114,9 @@ video {
 }
 
 body {
-  -moz-transform: scale(1, 1); /* Moz-browsers */
+  -moz-transform: scale(1, 0.8);
   zoom: 0.9; /* Other non-webkit browsers */
-  zoom: 90%;
+  zoom: 80%;
   background-color: #fffaeb;
 }
 body header {
@@ -174,7 +174,7 @@ body header nav .navigation-bar ul li a:hover {
   color: #e9b949;
 }
 body main .first-page {
-  height: 90vh;
+  height: 115vh;
   width: 80%;
   margin: auto;
   position: relative;
@@ -296,8 +296,8 @@ body main .first-page .image-articles .article-bio hr, body main .second-page .i
 }
 body main .second-page {
   background-color: #ffffff;
-  height: 100vh;
-  padding-top: 220px;
+  height: 120vh;
+  padding-top: 195px;
 }
 body main .second-page .img-about {
   width: 80%;
