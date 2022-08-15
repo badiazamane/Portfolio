@@ -114,6 +114,8 @@ video {
 }
 
 body {
+  -moz-transform: scale(0.8, 0.8); /* Moz-browsers */
+  zoom: 0.8; /* Other non-webkit browsers */
   zoom: 80%;
   background-color: #fffaeb;
 }
@@ -172,7 +174,7 @@ body header nav .navigation-bar ul li a:hover {
   color: #e9b949;
 }
 body main .first-page {
-  height: 100vh;
+  height: 90vh;
   width: 80%;
   margin: auto;
   position: relative;
