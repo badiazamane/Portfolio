@@ -9,3 +9,7 @@ window.addEventListener("scroll", function (event) {
     document.getElementById("nav-header").style.boxShadow = "none";
   }
 });
+
+if (screen.width >= 1000) {
+  document.write("<style>body{zoom:95%;}</style>");
+}

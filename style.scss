@@ -4,6 +4,7 @@ $font-family-headers: roboto, arial, helvetica;
 $font-family-headers-four: Arial, Helvetica, sans-serif;
 
 body {
+  zoom: 50%;
   background-color: #fffaeb;
   header {
     padding: 20px 0px;
@@ -159,6 +160,6 @@ body {
         }
       }
     }
-    @import "second-page";
+    @import "portfolio-pages/second-page";
   }
 }
