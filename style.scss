@@ -19,7 +19,7 @@ body {
     nav {
       display: flex;
       justify-content: space-between;
-      height: 100px;
+      height: 120px;
       padding: 10px 20px;
       width: 80%;
       margin: auto;
@@ -31,7 +31,8 @@ body {
         justify-content: center;
         height: 100%;
         .nav-name {
-          @extend %h1;
+          letter-spacing: 3px;
+          @extend %h1-style;
           font-size: 1.7rem;
           span {
             color: #e9b949;
@@ -88,11 +89,8 @@ body {
             @extend %hr;
           }
           .main-name {
-            @extend %h1;
-            font-size: 2.5rem;
-            letter-spacing: 4px;
+            @extend %h1-style;
             padding: 10px;
-            opacity: 0.8;
           }
           h4 {
             margin-top: 15px;
@@ -103,12 +101,13 @@ body {
             font-weight: 600;
             margin-bottom: 35px;
             font-family: $font-family-headers-four;
+            color: #646363;
             font-size: 20px;
           }
           .button-hire-me {
             border-radius: 5px;
             letter-spacing: 1.5px;
-            font-family: montserrat;
+            font-family: $font-family-headers;
             text-align: center;
             text-transform: uppercase;
             background-color: #e9b949;
@@ -147,8 +146,8 @@ body {
           margin-left: 80px;
           margin-top: 50px;
           border: 7px solid #e9b949;
-          width: 390px;
-          height: 550px;
+          width: 430px;
+          height: 540px;
           border-radius: 3%;
           position: relative;
           .my-img {

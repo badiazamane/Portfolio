@@ -29,7 +29,7 @@
     .about-page {
       grid-column: span 2;
       .h1-about {
-        @extend %h1;
+        @extend %h1-style;
         letter-spacing: 0.8rem;
         font-size: 2.6rem;
         transform: none;
