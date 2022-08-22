@@ -1,6 +1,6 @@
 body header nav .header1 .nav-name, body header nav .navigation-bar ul li .nav-name, body main .first-page .image-articles .article-bio .main-name, body main .second-page .img-about .about-page .h1-about {
   font-family: roboto, arial, helvetica;
-  font-size: 2.5rem;
+  font-size: 1.8rem;
   font-weight: 550;
   letter-spacing: 7px;
   text-transform: capitalize;
@@ -114,9 +114,6 @@ video {
 }
 
 body {
-  -moz-transform: scale(1, 0.8);
-  zoom: 0.9; /* Other non-webkit browsers */
-  zoom: 80%;
   background-color: #fffaeb;
 }
 body header {
@@ -131,7 +128,7 @@ body header {
 body header nav {
   display: flex;
   justify-content: space-between;
-  height: 120px;
+  height: 100px;
   padding: 10px 20px;
   width: 80%;
   margin: auto;
@@ -175,7 +172,7 @@ body header nav .navigation-bar ul li a:hover {
   color: #e9b949;
 }
 body main .first-page {
-  height: 115vh;
+  height: 85vh;
   width: 80%;
   margin: auto;
   position: relative;
@@ -183,7 +180,6 @@ body main .first-page {
 }
 body main .first-page .image-articles {
   margin-top: 140px;
-  height: 650px;
   display: grid;
   gap: 1.5em;
   grid-template-columns: repeat(2, 1fr);
@@ -251,7 +247,7 @@ body main .first-page .image-articles .article-bio .icons .icon-5 {
 }
 body main .first-page .image-articles .article-bio .icons i {
   opacity: 0.8;
-  font-size: 2.2em;
+  font-size: 1.7em;
   padding: 20px 30px;
 }
 body main .first-page .image-articles .article-bio .icons i:hover {
@@ -262,22 +258,22 @@ body main .first-page .image-articles .border-img {
   margin-left: 80px;
   margin-top: 50px;
   border: 7px solid #e9b949;
-  width: 430px;
-  height: 540px;
+  width: 330px;
+  height: 440px;
   border-radius: 3%;
   position: relative;
 }
 body main .first-page .image-articles .border-img .my-img {
   border-radius: 3%;
-  left: -40px;
+  left: -55px;
   top: -30px;
   position: absolute;
-  width: 100%;
+  width: 110%;
   height: 100%;
 }
 body main header nav .header1 .nav-name, body header nav .header1 main .nav-name, body main header nav .navigation-bar ul li .nav-name, body header nav .navigation-bar ul li main .nav-name, body main .first-page .image-articles .article-bio .main-name, body main .second-page .img-about .about-page .h1-about {
   font-family: roboto, arial, helvetica;
-  font-size: 2.5rem;
+  font-size: 1.8rem;
   font-weight: 550;
   letter-spacing: 7px;
   text-transform: capitalize;
@@ -295,8 +291,8 @@ body main .first-page .image-articles .article-bio hr, body main .second-page .i
 }
 body main .second-page {
   background-color: #ffffff;
-  height: 120vh;
-  padding-top: 195px;
+  height: 85vh;
+  padding-top: 70px;
 }
 body main .second-page .img-about {
   width: 80%;
@@ -309,8 +305,8 @@ body main .second-page .img-about {
 body main .second-page .img-about .border-about-image {
   position: relative;
   border: 6px solid #e9b949;
-  width: 390px;
-  height: 520px;
+  width: 330px;
+  height: 420px;
   border-radius: 3%;
 }
 body main .second-page .img-about .border-about-image img {
@@ -332,19 +328,21 @@ body main .second-page .img-about .about-page .h1-about {
 }
 body main .second-page .img-about .about-page hr {
   margin-left: 0;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 body main .second-page .img-about .about-page .para {
   text-indent: 5%;
   color: hsl(210deg, 22%, 49%);
-  line-height: 2rem;
-  font-size: 1.4rem;
+  line-height: 1.6rem;
+  font-size: 1.3rem;
+  font-weight: 500;
 }
 body main .second-page .img-about .about-page .para .specialisation {
   margin-bottom: 5px;
+  text-indent: 0 !important;
 }
 body main .second-page .img-about .about-page .para div {
-  margin-left: -67px;
+  text-indent: 2% !important;
 }
 
 /*# sourceMappingURL=style.css.map */

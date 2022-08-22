@@ -4,9 +4,6 @@ $font-family-headers: roboto, arial, helvetica;
 $font-family-headers-four: Arial, Helvetica, sans-serif;
 
 body {
-  -moz-transform: scale(1, 0.8);
-  zoom: 0.9; /* Other non-webkit browsers */
-  zoom: 80%;
   background-color: #fffaeb;
   header {
     padding: 20px 0px;
@@ -19,7 +16,7 @@ body {
     nav {
       display: flex;
       justify-content: space-between;
-      height: 120px;
+      height: 100px;
       padding: 10px 20px;
       width: 80%;
       margin: auto;
@@ -69,14 +66,13 @@ body {
   }
   main {
     .first-page {
-      height: 115vh;
+      height: 85vh;
       width: 80%;
       margin: auto;
       position: relative;
       z-index: 0;
       .image-articles {
         margin-top: 140px;
-        height: 650px;
         display: grid;
         gap: 1.5em;
         grid-template-columns: repeat(2, 1fr);
@@ -132,7 +128,7 @@ body {
             }
             i {
               opacity: 0.8;
-              font-size: 2.2em;
+              font-size: 1.7em;
               padding: 20px 30px;
             }
             i:hover {
@@ -146,16 +142,16 @@ body {
           margin-left: 80px;
           margin-top: 50px;
           border: 7px solid #e9b949;
-          width: 430px;
-          height: 540px;
+          width: 330px;
+          height: 440px;
           border-radius: 3%;
           position: relative;
           .my-img {
             border-radius: 3%;
-            left: -40px;
+            left: -55px;
             top: -30px;
             position: absolute;
-            width: 100%;
+            width: 110%;
             height: 100%;
           }
         }

@@ -1,8 +1,8 @@
 @use "../definition/definition";
 .second-page {
   background-color: #ffffff;
-  height: 120vh;
-  padding-top: 195px;
+  height: 85vh;
+  padding-top: 70px;
   .img-about {
     width: 80%;
     margin: auto;
@@ -13,8 +13,8 @@
     .border-about-image {
       position: relative;
       border: 6px solid #e9b949;
-      width: 390px;
-      height: 520px;
+      width: 330px;
+      height: 420px;
       border-radius: 3%;
       img {
         position: absolute;
@@ -38,18 +38,20 @@
       hr {
         @extend %hr;
         margin-left: 0;
-        margin-bottom: 40px;
+        margin-bottom: 30px;
       }
       .para {
         text-indent: 5%;
         color: definition.$paragraph-color;
-        line-height: 2rem;
-        font-size: 1.4rem;
+        line-height: 1.6rem;
+        font-size: 1.3rem;
+        font-weight: 500;
         .specialisation {
           margin-bottom: 5px;
+          text-indent: 0 !important;
         }
         div {
-          margin-left: -67px;
+          text-indent: 2% !important;
         }
       }
     }
