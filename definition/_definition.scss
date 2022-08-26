@@ -1,15 +1,15 @@
 $font-family-headers: roboto, arial, helvetica;
 $font-family-headers-four: Arial, Helvetica, sans-serif;
 $paragraph-color: hsl(210, 22%, 49%);
+$skills-subjects-percentage-color: #362a0c;
 %h1-style {
   font-family: $font-family-headers;
   font-size: 1.8rem;
   font-weight: 550;
   letter-spacing: 7px;
   text-transform: capitalize;
-  //   text-align: center;
   transform: scale(1, 2);
-  text-shadow: 1px 1px 3px black;
+
   opacity: 0.8;
 }
 %hr {
@@ -19,4 +19,45 @@ $paragraph-color: hsl(210, 22%, 49%);
   margin-bottom: 20px;
   background-color: #e9b949;
   margin-left: 10px;
+}
+
+.span-skills {
+  font-size: 1.1rem;
+  padding: 15px 0px;
+  color: $skills-subjects-percentage-color;
+}
+.percentage-number {
+  color: $skills-subjects-percentage-color;
+  font-size: 1.1rem;
+  padding: 15px 0px;
+  margin-left: 41%;
+}
+
+%percent {
+  display: flex;
+  position: relative;
+  margin-bottom: 35px;
+
+  .hr-yellow {
+    @extend %hr;
+    width: 60%;
+    height: 20px;
+    margin-left: 0;
+    border-radius: 25px;
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    z-index: 1;
+  }
+  .hr-black {
+    @extend %hr;
+    position: absolute;
+    right: 0;
+    top: 40px;
+    background-color: #171717;
+    width: 50%;
+    height: 20px;
+    border-radius: 25px;
+    opacity: 0.8;
+  }
 }
