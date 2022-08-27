@@ -2,54 +2,232 @@
 .third-page {
   height: 100vh;
   width: 100%;
-  background-color: #f1f5f8;
+  background-color: #fffaeb;
   .page-content {
-    width: 70%;
+    width: 60%;
     margin: auto;
     .title {
       @extend %h1-style;
       text-align: center;
       transform: scale(1.2, 1.2) !important;
-      padding-top: 50px !important;
+      padding-top: 20px !important;
       font-size: 2.3rem !important;
-      letter-spacing: 2px;
+      letter-spacing: 2px !important;
+      font-weight: 400 !important;
+      text-shadow: 1px 1px 3px rgb(107, 107, 107);
     }
     .hr-2 {
       @extend %hr;
       margin: auto !important;
       width: 10% !important;
-      margin-bottom: 30px !important;
-      margin-top: 30px !important;
+      margin-bottom: 20px !important;
+      margin-top: 20px !important;
     }
   }
   .main-grid-projects {
-    height: 60vh;
-    border: 1px solid #e9b949;
+    height: 63vh;
+    // border: 1px solid #e9b949;
     display: grid;
     gap: 1em;
-    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    div {
-      background-color: red;
-      border-radius: 3%;
-    }
-    div:nth-child(1) {
+    grid-template-columns: repeat(3, 1fr);
+
+    .prj1 {
       grid-row-start: 1;
       grid-row-end: 3;
+      position: relative;
+      background-color: #edc76d;
+      border-radius: 7px;
+      display: flex;
+      justify-content: center;
+      box-shadow: 1px 1px 3px rgb(107, 107, 107);
+
+      .img-title {
+        display: grid;
+        grid-template-rows: 80% 20%;
+        border-radius: 3%;
+        position: relative;
+        .img-prj1 {
+          height: 100%;
+          width: 100%;
+          object-fit: fill;
+          opacity: 0.8;
+          border-top-left-radius: 2%;
+          border-top-right-radius: 2%;
+          box-shadow: 1px 1px 3px rgb(107, 107, 107);
+        }
+        .prj1-title {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: 1.7rem;
+          border-bottom-right-radius: 3%;
+          border-bottom-left-radius: 3%;
+          letter-spacing: 2px;
+          text-shadow: 1px 1px 3px rgb(107, 107, 107);
+          opacity: 0.8;
+        }
+
+        .span1-prj1 {
+          @extend %span1-prj;
+        }
+        .span2-prj1 {
+          @extend %span1-prj;
+          top: 30% !important;
+        }
+        .span3-prj1 {
+          @extend %span1-prj;
+          top: 50% !important;
+        }
+        a {
+          text-decoration: none !important;
+        }
+      }
+
+      .img-title:hover {
+        .prj1-title:before {
+          content: " ";
+          position: absolute;
+          height: 80%;
+          width: 100%;
+          top: 0;
+          background-color: #ffffff;
+          z-index: 1;
+          opacity: 0.7;
+        }
+        .prj1-title:after {
+          content: " ";
+          position: absolute;
+          height: 70%;
+          width: 87%;
+          top: 20px;
+          left: 20px;
+          border: 5px solid #e9b949;
+          border-radius: 7px;
+          z-index: 1;
+        }
+        .span1-prj1 {
+          opacity: 1 !important;
+          z-index: 1 !important;
+        }
+        .span2-prj1 {
+          opacity: 1 !important;
+          z-index: 1 !important;
+        }
+        .span3-prj1 {
+          opacity: 1 !important;
+          z-index: 1 !important;
+        }
+      }
     }
-    div:nth-child(2) {
+    .prj2 {
+      background-color: #edc76d;
+      border-radius: 7px;
+      display: flex;
+      justify-content: center;
+      box-shadow: 1px 1px 3px rgb(107, 107, 107);
       grid-column-start: 2;
       grid-column-end: 4;
+      .img-title {
+        display: grid;
+        grid-template-rows: 80% 20%;
+        border-radius: 3%;
+        position: relative;
+        .img-prj1 {
+          height: 100%;
+          width: 100%;
+          object-fit: fill;
+          opacity: 0.8;
+          border-top-left-radius: 2%;
+          border-top-right-radius: 2%;
+          box-shadow: 1px 1px 3px rgb(107, 107, 107);
+        }
+        .prj1-title {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: 1.7rem;
+          border-bottom-right-radius: 3%;
+          border-bottom-left-radius: 3%;
+          letter-spacing: 2px;
+          text-shadow: 1px 1px 3px rgb(107, 107, 107);
+          opacity: 0.8;
+        }
+
+        .span1-prj2 {
+          @extend %span1-prj;
+          top: 15% !important;
+          left: 35% !important;
+        }
+
+        .span3-prj2 {
+          @extend %span1-prj;
+          top: 45% !important;
+          left: 35% !important;
+        }
+        a {
+          text-decoration: none !important;
+        }
+      }
+
+      .img-title:hover {
+        .prj1-title:before {
+          content: " ";
+          position: absolute;
+          height: 80%;
+          width: 100%;
+          top: 0;
+          background-color: #ffffff;
+          z-index: 1;
+          opacity: 0.7;
+        }
+        .prj1-title:after {
+          content: " ";
+          position: absolute;
+          height: 70%;
+          width: 87%;
+          top: 15px;
+          left: 35px;
+          border: 5px solid #e9b949;
+          border-radius: 7px;
+          z-index: 1;
+        }
+        .span1-prj1 {
+          opacity: 1 !important;
+          z-index: 1 !important;
+        }
+        .span2-prj1 {
+          opacity: 1 !important;
+          z-index: 1 !important;
+        }
+        .span3-prj1 {
+          opacity: 1 !important;
+          z-index: 1 !important;
+        }
+        .span1-prj2 {
+          opacity: 1 !important;
+          z-index: 1 !important;
+        }
+        .span3-prj2 {
+          opacity: 1 !important;
+          z-index: 1 !important;
+        }
+      }
     }
 
-    .img-prj1 {
-      height: 100%;
-      width: 100%;
-      object-fit: fill;
-      border-radius: 3%;
+    .prj3 {
+      background-color: #edc76d;
+      border-radius: 7px;
+      display: flex;
+      justify-content: center;
+      box-shadow: 1px 1px 3px rgb(107, 107, 107);
     }
-    .img-prj1:hover {
-      background-color: #e9b949;
+    .prj4 {
+      background-color: #edc76d;
+      border-radius: 7px;
+      display: flex;
+      justify-content: center;
+      box-shadow: 1px 1px 3px rgb(107, 107, 107);
     }
   }
 }

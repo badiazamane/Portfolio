@@ -15,7 +15,6 @@ document.getElementById("about1").addEventListener("click", () => {
   }, 0);
 });
 document.getElementById("projects").addEventListener("click", () => {
-  console.log("Third page clicked");
   window.setTimeout(() => {
     window.scrollTo(window.scrollX, window.scrollY - 120);
   }, 0);

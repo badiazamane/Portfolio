@@ -20,6 +20,17 @@ $skills-subjects-percentage-color: #362a0c;
   background-color: #e9b949;
   margin-left: 10px;
 }
+%span1-prj {
+  position: absolute;
+  padding: 15px 20px;
+  background-color: #ffffff;
+  opacity: 0;
+  top: 10%;
+  left: 17%;
+  border-radius: 7px;
+  font-size: 1.1rem;
+  box-shadow: 1px 1px 2px rgb(54, 54, 54);
+}
 
 .span-skills {
   font-size: 1.1rem;
