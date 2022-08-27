@@ -44,7 +44,7 @@
 
       .img-title {
         display: grid;
-        grid-template-rows: 80% 20%;
+        grid-template-rows: 85% 15%;
         border-radius: 3%;
         position: relative;
         .img-prj1 {
@@ -192,18 +192,7 @@
           border-radius: 7px;
           z-index: 1;
         }
-        .span1-prj1 {
-          opacity: 1 !important;
-          z-index: 1 !important;
-        }
-        .span2-prj1 {
-          opacity: 1 !important;
-          z-index: 1 !important;
-        }
-        .span3-prj1 {
-          opacity: 1 !important;
-          z-index: 1 !important;
-        }
+
         .span1-prj2 {
           opacity: 1 !important;
           z-index: 1 !important;
@@ -221,6 +210,71 @@
       display: flex;
       justify-content: center;
       box-shadow: 1px 1px 3px rgb(107, 107, 107);
+      .img-title {
+        display: grid;
+        grid-template-rows: 80% 20%;
+        border-radius: 3%;
+        position: relative;
+        .img-prj1 {
+          height: 100%;
+          width: 100%;
+          object-fit: fill;
+          opacity: 0.8;
+          border-top-left-radius: 2%;
+          border-top-right-radius: 2%;
+          box-shadow: 1px 1px 3px rgb(107, 107, 107);
+        }
+        .prj1-title {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: 1.7rem;
+          border-bottom-right-radius: 3%;
+          border-bottom-left-radius: 3%;
+          letter-spacing: 2px;
+          text-shadow: 1px 1px 3px rgb(107, 107, 107);
+          opacity: 0.8;
+        }
+
+        .span1-prj3 {
+          @extend %span1-prj;
+          top: 28% !important;
+          left: 28% !important;
+        }
+
+        a {
+          text-decoration: none !important;
+        }
+      }
+
+      .img-title:hover {
+        .prj1-title:before {
+          content: " ";
+          position: absolute;
+          height: 80%;
+          width: 100%;
+          top: 0;
+          background-color: #ffffff;
+          z-index: 1;
+          opacity: 0.7;
+        }
+        .prj1-title:after {
+          content: " ";
+          position: absolute;
+          height: 70%;
+          width: 87%;
+          top: 10px;
+          left: 20px;
+          border: 5px solid #e9b949;
+          border-radius: 7px;
+          z-index: 1;
+        }
+
+        .span1-prj3 {
+          opacity: 1 !important;
+          z-index: 1 !important;
+        }
+      }
     }
     .prj4 {
       background-color: #edc76d;
@@ -228,6 +282,71 @@
       display: flex;
       justify-content: center;
       box-shadow: 1px 1px 3px rgb(107, 107, 107);
+      .img-title {
+        display: grid;
+        grid-template-rows: 80% 20%;
+        border-radius: 3%;
+        position: relative;
+        .img-prj1 {
+          height: 100%;
+          width: 100%;
+          object-fit: fill;
+          opacity: 0.8;
+          border-top-left-radius: 2%;
+          border-top-right-radius: 2%;
+          box-shadow: 1px 1px 3px rgb(107, 107, 107);
+        }
+        .prj1-title {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: 1.7rem;
+          border-bottom-right-radius: 3%;
+          border-bottom-left-radius: 3%;
+          letter-spacing: 2px;
+          text-shadow: 1px 1px 3px rgb(107, 107, 107);
+          opacity: 0.8;
+        }
+
+        .span1-prj4 {
+          @extend %span1-prj;
+          top: 28% !important;
+          left: 28% !important;
+        }
+
+        a {
+          text-decoration: none !important;
+        }
+      }
+
+      .img-title:hover {
+        .prj1-title:before {
+          content: " ";
+          position: absolute;
+          height: 80%;
+          width: 100%;
+          top: 0;
+          background-color: #ffffff;
+          z-index: 1;
+          opacity: 0.7;
+        }
+        .prj1-title:after {
+          content: " ";
+          position: absolute;
+          height: 70%;
+          width: 87%;
+          top: 10px;
+          left: 20px;
+          border: 5px solid #e9b949;
+          border-radius: 7px;
+          z-index: 1;
+        }
+
+        .span1-prj4 {
+          opacity: 1 !important;
+          z-index: 1 !important;
+        }
+      }
     }
   }
 }
