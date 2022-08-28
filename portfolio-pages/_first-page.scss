@@ -74,7 +74,103 @@
           color: #e9b949;
           cursor: pointer;
         }
+
         .fa-linkedin {
+          position: relative;
+        }
+        .fa-linkedin:after {
+          content: "my linkedin profile";
+          font-size: 0.9rem;
+          width: 7rem;
+
+          background-color: #929292;
+          position: absolute;
+          width: 7.6rem;
+          padding: 5px;
+          top: -15px;
+          left: -10px;
+          display: none;
+          color: black;
+        }
+        .fa-linkedin:hover::after {
+          display: block;
+        }
+        .fa-github {
+          position: relative;
+        }
+        .fa-github:after {
+          content: "my github profile";
+          font-size: 0.9rem;
+          width: 7rem;
+
+          background-color: #929292;
+          position: absolute;
+          width: 7rem;
+          padding: 5px;
+          top: -15px;
+          left: -10px;
+          display: none;
+          color: black;
+        }
+        .fa-github:hover::after {
+          display: block;
+        }
+        .fa-file-lines {
+          position: relative;
+        }
+        .fa-file-lines:after {
+          content: "my cv";
+          font-size: 0.75rem;
+          text-transform: lowercase;
+          background-color: #929292;
+          position: absolute;
+          width: 3.3rem;
+          padding: 5px;
+          top: -15px;
+          left: 10px;
+          display: none;
+          color: black;
+        }
+        .fa-file-lines:hover::after {
+          display: block;
+        }
+        .fa-stack-overflow {
+          position: relative;
+        }
+        .fa-stack-overflow:after {
+          content: "my stack-overflow profile";
+          font-size: 0.9rem;
+          background-color: #929292;
+          position: absolute;
+          width: 10.5rem;
+          padding: 5px;
+          top: -15px;
+          left: -10px;
+          display: none;
+          color: black;
+        }
+        .fa-stack-overflow:hover::after {
+          display: block;
+        }
+        .fa-youtube {
+          position: relative;
+        }
+        .fa-youtube:after {
+          content: "my youtube channel";
+          font-size: 0.9rem;
+          width: 7rem;
+
+          background-color: #929292;
+          position: absolute;
+          width: 8rem;
+          padding: 5px;
+          top: -15px;
+          left: -10px;
+          display: none;
+          color: black;
+        }
+        .fa-youtube:hover::after {
+          display: block;
         }
       }
     }
