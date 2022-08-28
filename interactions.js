@@ -17,7 +17,7 @@ document.getElementById("about1").addEventListener("click", () => {
 document.getElementById("projects-id").addEventListener("click", () => {
   window.setTimeout(() => {
     window.scrollTo(window.scrollX, window.scrollY - 120);
-  }, 0);
+  }, 2);
 });
 document.getElementById("contact-id").addEventListener("click", () => {
   console.log("Third page clicked");
