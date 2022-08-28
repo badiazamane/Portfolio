@@ -222,19 +222,85 @@ body header nav .navigation-bar ul li a:hover {
   transition: color 1s;
   color: #e9b949;
 }
+body main .fifth-page .content-fifth-page h1, body main .fourth-page .chatbox .title, body main .third-page .page-content .title, body main .second-page .img-about .about-page .h1-about, body main header nav .header1 .nav-name, body header nav .header1 main .nav-name, body main header nav .navigation-bar ul li .nav-name, body header nav .navigation-bar ul li main .nav-name, body main .first-page .image-articles .article-bio .main-name {
+  font-family: roboto, arial, helvetica;
+  font-size: 1.8rem;
+  font-weight: 550;
+  letter-spacing: 7px;
+  text-transform: capitalize;
+  transform: scale(1, 2);
+  opacity: 0.8;
+}
+body main .fifth-page .content-fifth-page .hr-3, body main .fourth-page .chatbox .hr-2, body main .third-page .page-content .hr-2, body main .second-page .img-about .about-page .hr-2, body main .first-page .image-articles .article-bio hr, body main .fifth-page .content-fifth-page .front-back .back .subject-2 .hr-black, body main .fifth-page .content-fifth-page .front-back .back .subject-1 .hr-black, body main .fifth-page .content-fifth-page .front-back .front .subject-3 .hr-black, body main .fifth-page .content-fifth-page .front-back .front .subject-2 .hr-black, body main .fifth-page .content-fifth-page .front-back .front .subject-1 .hr-black, body main .fifth-page .content-fifth-page .front-back .back .subject-2 .hr-yellow, body main .fifth-page .content-fifth-page .front-back .back .subject-1 .hr-yellow, body main .fifth-page .content-fifth-page .front-back .front .subject-3 .hr-yellow, body main .fifth-page .content-fifth-page .front-back .front .subject-2 .hr-yellow, body main .fifth-page .content-fifth-page .front-back .front .subject-1 .hr-yellow {
+  border: none;
+  height: 5px;
+  width: 20%;
+  margin-bottom: 20px;
+  background-color: #e9b949;
+  margin-left: 10px;
+}
+body main .third-page .main-grid-projects .prj4 .img-title .span1-prj4, body main .third-page .main-grid-projects .prj3 .img-title .span1-prj3, body main .third-page .main-grid-projects .prj2 .img-title .span3-prj2, body main .third-page .main-grid-projects .prj2 .img-title .span1-prj2, body main .third-page .main-grid-projects .prj1 .img-title .span3-prj1, body main .third-page .main-grid-projects .prj1 .img-title .span2-prj1, body main .third-page .main-grid-projects .prj1 .img-title .span1-prj1 {
+  position: absolute;
+  padding: 15px 20px;
+  background-color: #ffffff;
+  opacity: 0;
+  top: 10%;
+  left: 17%;
+  border-radius: 7px;
+  font-size: 1.1rem;
+  box-shadow: 1px 1px 2px rgb(54, 54, 54);
+}
+body main .span-skills {
+  font-size: 1.1rem;
+  padding: 15px 0px;
+  color: #362a0c;
+}
+body main .percentage-number {
+  color: #362a0c;
+  font-size: 1.1rem;
+  padding: 15px 0px;
+  margin-left: 41%;
+}
+body main .fifth-page .content-fifth-page .front-back .back .subject-2, body main .fifth-page .content-fifth-page .front-back .back .subject-1, body main .fifth-page .content-fifth-page .front-back .front .subject-3, body main .fifth-page .content-fifth-page .front-back .front .subject-2, body main .fifth-page .content-fifth-page .front-back .front .subject-1 {
+  display: flex;
+  position: relative;
+  margin-bottom: 35px;
+}
+body main .fifth-page .content-fifth-page .front-back .back .subject-2 .hr-yellow, body main .fifth-page .content-fifth-page .front-back .back .subject-1 .hr-yellow, body main .fifth-page .content-fifth-page .front-back .front .subject-3 .hr-yellow, body main .fifth-page .content-fifth-page .front-back .front .subject-2 .hr-yellow, body main .fifth-page .content-fifth-page .front-back .front .subject-1 .hr-yellow {
+  width: 60%;
+  height: 20px;
+  margin-left: 0;
+  border-radius: 25px;
+  position: absolute;
+  top: 40px;
+  left: 0px;
+  z-index: 1;
+}
+body main .fifth-page .content-fifth-page .front-back .back .subject-2 .hr-black, body main .fifth-page .content-fifth-page .front-back .back .subject-1 .hr-black, body main .fifth-page .content-fifth-page .front-back .front .subject-3 .hr-black, body main .fifth-page .content-fifth-page .front-back .front .subject-2 .hr-black, body main .fifth-page .content-fifth-page .front-back .front .subject-1 .hr-black {
+  position: absolute;
+  right: 0;
+  top: 40px;
+  background-color: #171717;
+  width: 50%;
+  height: 20px;
+  border-radius: 25px;
+  opacity: 0.8;
+}
 body main .first-page {
   height: 85vh;
-  width: 80%;
+  width: 100%;
   margin: auto;
   position: relative;
   z-index: 0;
 }
 body main .first-page .image-articles {
-  margin-top: 170px;
+  margin-top: 170px !important;
   display: grid;
-  gap: 1.5em;
+  gap: 1.5rem;
   grid-template-columns: repeat(2, 1fr);
   place-items: center;
+  max-width: 80%;
+  margin: auto;
 }
 body main .first-page .image-articles .article-bio {
   margin-top: 1em;
@@ -392,25 +458,23 @@ body main .second-page {
   position: relative;
   background-color: #fbfbfb;
   height: 86.3vh;
-  padding-top: 65px;
 }
 body main .second-page .img-about {
   width: 80%;
   margin: auto;
-  margin-top: 30px;
+  margin-top: 35px;
   display: grid;
   gap: 5em;
   grid-template-columns: repeat(3, 1fr);
   place-items: center;
   height: 100%;
-  max-height: 65vh;
   overflow: auto;
 }
 body main .second-page .img-about .border-about-image {
   position: relative;
   border: 6px solid #e9b949;
-  width: 320px;
-  height: 400px;
+  width: 330px;
+  height: 430px;
   border-radius: 3%;
 }
 body main .second-page .img-about .border-about-image img {
@@ -441,6 +505,27 @@ body main .second-page .img-about .about-page .para {
   line-height: 1.6rem;
   font-size: 1.3rem;
   font-weight: 500;
+}
+body main .second-page .img-about .about-page .cv-anshor {
+  margin-top: 30px;
+}
+body main .second-page .img-about .about-page .cv-anshor .cv {
+  border-radius: 5px;
+  letter-spacing: 1.5px;
+  font-family: roboto, arial, helvetica;
+  text-align: center;
+  background-color: #e9b949;
+  text-decoration: none;
+  padding: 10px 20px;
+  color: rgb(48, 47, 47);
+  font-size: 1.1rem;
+}
+body main .second-page .img-about .about-page .cv-anshor .cv:hover {
+  transition: color 1s;
+  background-color: #ecca7a;
+}
+body main .second-page .img-about .about-page .cv-anshor a {
+  text-decoration: none;
 }
 body main .fifth-page .content-fifth-page h1, body main .fourth-page .chatbox .title, body main header nav .header1 .nav-name, body header nav .header1 main .nav-name, body main header nav .navigation-bar ul li .nav-name, body header nav .navigation-bar ul li main .nav-name, body main .first-page .image-articles .article-bio .main-name, body main .second-page .img-about .about-page .h1-about, body main .third-page .page-content .title {
   font-family: roboto, arial, helvetica;
@@ -507,9 +592,10 @@ body main .fifth-page .content-fifth-page .front-back .back .subject-2 .hr-black
   opacity: 0.8;
 }
 body main .third-page {
-  height: 85vh;
+  height: 95vh;
   width: 100%;
   background-color: #fffaeb;
+  overflow: auto;
 }
 body main .third-page .page-content {
   width: 60%;
@@ -574,10 +660,10 @@ body main .third-page .main-grid-projects .prj1 .img-title .prj1-title {
   opacity: 0.8;
 }
 body main .third-page .main-grid-projects .prj1 .img-title .span2-prj1 {
-  top: 30% !important;
+  top: 35% !important;
 }
 body main .third-page .main-grid-projects .prj1 .img-title .span3-prj1 {
-  top: 50% !important;
+  top: 60% !important;
 }
 body main .third-page .main-grid-projects .prj1 .img-title a {
   text-decoration: none !important;
@@ -585,7 +671,7 @@ body main .third-page .main-grid-projects .prj1 .img-title a {
 body main .third-page .main-grid-projects .prj1 .img-title:hover .prj1-title:before {
   content: " ";
   position: absolute;
-  height: 80%;
+  height: 85%;
   width: 100%;
   top: 0;
   background-color: #ffffff;
@@ -595,7 +681,7 @@ body main .third-page .main-grid-projects .prj1 .img-title:hover .prj1-title:bef
 body main .third-page .main-grid-projects .prj1 .img-title:hover .prj1-title:after {
   content: " ";
   position: absolute;
-  height: 70%;
+  height: 77%;
   width: 87%;
   top: 20px;
   left: 20px;
@@ -1050,6 +1136,7 @@ body main .fifth-page {
   height: 75vh;
   width: 100%;
   background-color: #ffffff;
+  overflow: auto;
 }
 body main .fifth-page .content-fifth-page {
   width: 80%;

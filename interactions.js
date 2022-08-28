@@ -14,12 +14,12 @@ document.getElementById("about1").addEventListener("click", () => {
     window.scrollTo(window.scrollX, window.scrollY - 110);
   }, 0);
 });
-document.getElementById("projects").addEventListener("click", () => {
+document.getElementById("projects-id").addEventListener("click", () => {
   window.setTimeout(() => {
     window.scrollTo(window.scrollX, window.scrollY - 120);
   }, 0);
 });
-document.getElementById("contact").addEventListener("click", () => {
+document.getElementById("contact-id").addEventListener("click", () => {
   console.log("Third page clicked");
   window.setTimeout(() => {
     window.scrollTo(window.scrollX, window.scrollY - 120);

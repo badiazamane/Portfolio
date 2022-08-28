@@ -1,10 +1,12 @@
 @use "../definition/definition";
 .third-page {
-  height: 85vh;
+  height: 95vh;
   width: 100%;
   background-color: #fffaeb;
+  overflow: auto;
   .page-content {
     width: 60%;
+
     margin: auto;
     .title {
       @extend %h1-style;
@@ -26,7 +28,6 @@
   }
   .main-grid-projects {
     height: 63vh;
-    // border: 1px solid #e9b949;
     display: grid;
     gap: 1em;
     grid-template-rows: repeat(2, 1fr);
@@ -73,11 +74,11 @@
         }
         .span2-prj1 {
           @extend %span1-prj;
-          top: 30% !important;
+          top: 35% !important;
         }
         .span3-prj1 {
           @extend %span1-prj;
-          top: 50% !important;
+          top: 60% !important;
         }
         a {
           text-decoration: none !important;
@@ -88,7 +89,7 @@
         .prj1-title:before {
           content: " ";
           position: absolute;
-          height: 80%;
+          height: 85%;
           width: 100%;
           top: 0;
           background-color: #ffffff;
@@ -98,7 +99,7 @@
         .prj1-title:after {
           content: " ";
           position: absolute;
-          height: 70%;
+          height: 77%;
           width: 87%;
           top: 20px;
           left: 20px;
