@@ -380,7 +380,8 @@ body main .first-page .image-articles .article-bio .icons .fa-linkedin:after {
   content: "my linkedin profile";
   font-size: 0.9rem;
   width: 7rem;
-  background-color: #929292;
+  border-radius: 3px;
+  background-color: #93918c;
   position: absolute;
   width: 7.6rem;
   padding: 5px;
@@ -399,7 +400,8 @@ body main .first-page .image-articles .article-bio .icons .fa-github:after {
   content: "my github profile";
   font-size: 0.9rem;
   width: 7rem;
-  background-color: #929292;
+  border-radius: 3px;
+  background-color: #93918c;
   position: absolute;
   width: 7rem;
   padding: 5px;
@@ -418,7 +420,8 @@ body main .first-page .image-articles .article-bio .icons .fa-file-lines:after {
   content: "my cv";
   font-size: 0.75rem;
   text-transform: lowercase;
-  background-color: #929292;
+  border-radius: 3px;
+  background-color: #93918c;
   position: absolute;
   width: 3.3rem;
   padding: 5px;
@@ -436,7 +439,8 @@ body main .first-page .image-articles .article-bio .icons .fa-stack-overflow {
 body main .first-page .image-articles .article-bio .icons .fa-stack-overflow:after {
   content: "my stack-overflow profile";
   font-size: 0.9rem;
-  background-color: #929292;
+  background-color: #93918c;
+  border-radius: 3px;
   position: absolute;
   width: 10.5rem;
   padding: 5px;
@@ -455,7 +459,8 @@ body main .first-page .image-articles .article-bio .icons .fa-youtube:after {
   content: "my youtube channel";
   font-size: 0.9rem;
   width: 7rem;
-  background-color: #929292;
+  border-radius: 3px;
+  background-color: #93918c;
   position: absolute;
   width: 8rem;
   padding: 5px;
