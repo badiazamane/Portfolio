@@ -167,7 +167,6 @@ body {
   background-color: #fffaeb;
 }
 body header {
-  padding: 20px 0px;
   position: fixed;
   top: 0;
   z-index: 2;
@@ -179,7 +178,6 @@ body header nav {
   display: flex;
   justify-content: space-between;
   height: 100px;
-  padding: 10px 20px;
   width: 80%;
   margin: auto;
 }
@@ -287,24 +285,23 @@ body main .fifth-page .content-fifth-page .front-back .back .subject-2 .hr-black
   opacity: 0.8;
 }
 body main .first-page {
-  height: 85vh;
+  height: 65vh;
   width: 100%;
   margin: auto;
   position: relative;
   z-index: 0;
 }
 body main .first-page .image-articles {
-  margin-top: 170px !important;
   display: grid;
   gap: 1.5rem;
   grid-template-columns: repeat(2, 1fr);
   place-items: center;
   max-width: 80%;
   margin: auto;
+  margin-top: 220px;
 }
 body main .first-page .image-articles .article-bio {
-  margin-top: 1em;
-  margin-left: 11em;
+  margin-left: 8rem;
 }
 body main .first-page .image-articles .article-bio .main-name {
   text-shadow: 1px 1px 3px black;
@@ -342,7 +339,7 @@ body main .first-page .image-articles .article-bio .button-hire-me:hover {
 }
 body main .first-page .image-articles .article-bio .icons {
   margin-top: 50px;
-  margin-left: -20px;
+  margin-left: 10px;
 }
 body main .first-page .image-articles .article-bio .icons .icon-1 {
   text-decoration: none;
@@ -473,13 +470,12 @@ body main .first-page .image-articles .article-bio .icons .fa-youtube:hover::aft
   display: block;
 }
 body main .first-page .image-articles .border-img {
-  margin-left: 80px;
-  margin-top: 50px;
   border: 7px solid #e9b949;
-  width: 330px;
-  height: 440px;
+  width: 320px;
+  height: 450px;
   border-radius: 3%;
   position: relative;
+  margin-left: 4rem;
 }
 body main .first-page .image-articles .border-img .my-img {
   border-radius: 3%;
@@ -488,6 +484,7 @@ body main .first-page .image-articles .border-img .my-img {
   position: absolute;
   width: 110%;
   height: 100%;
+  object-fit: fill;
 }
 body main .fifth-page .content-fifth-page h1, body main .fourth-page .chatbox .title, body main .third-page .page-content .title, body main header nav .header1 .nav-name, body header nav .header1 main .nav-name, body main header nav .navigation-bar ul li .nav-name, body header nav .navigation-bar ul li main .nav-name, body main .first-page .image-articles .article-bio .main-name, body main .second-page .img-about .about-page .h1-about {
   font-family: roboto, arial, helvetica;
@@ -567,7 +564,6 @@ body main .second-page .img-about {
   grid-template-columns: repeat(3, 1fr);
   place-items: center;
   height: 100%;
-  overflow: auto;
 }
 body main .second-page .img-about .border-about-image {
   position: relative;
@@ -694,7 +690,6 @@ body main .third-page {
   height: 95vh;
   width: 100%;
   background-color: #fffaeb;
-  overflow: auto;
 }
 body main .third-page .page-content {
   width: 60%;
@@ -1235,7 +1230,6 @@ body main .fifth-page {
   height: 75vh;
   width: 100%;
   background-color: #ffffff;
-  overflow: auto;
 }
 body main .fifth-page .content-fifth-page {
   width: 80%;
@@ -1311,6 +1305,253 @@ body footer .footer1 .copyright {
   text-align: center;
   font-size: 1.5rem;
   padding: 20px;
+}
+
+@media (max-width: 68em) {
+  header nav {
+    height: 70px !important;
+    padding: 0px !important;
+  }
+  header nav .header1 .nav-name, body header nav .navigation-bar ul li .nav-name {
+    font-size: 1.2rem !important;
+  }
+  header nav .navigation-bar {
+    display: flex;
+  }
+  header nav .navigation-bar ul {
+    gap: 1.2em !important;
+  }
+  header nav .navigation-bar ul li {
+    font-size: 1.2rem !important;
+  }
+  .first-page {
+    height: 85vh !important;
+  }
+  .first-page .image-articles {
+    margin-top: 210px !important;
+    display: grid;
+  }
+  .first-page .image-articles .article-bio {
+    margin-top: 0em !important;
+    margin-left: 0em !important;
+  }
+  .first-page .image-articles .article-bio .main-name {
+    font-size: 1.7rem !important;
+    letter-spacing: 4px !important;
+  }
+  .first-page .image-articles .article-bio h4 {
+    margin-top: 10px !important;
+    padding: 10px 10px !important;
+    letter-spacing: 1px !important;
+    margin-bottom: 20px !important;
+    font-size: 1.1rem !important;
+  }
+  .first-page .image-articles .article-bio .icons {
+    margin-top: 25px !important;
+    margin-left: -20px;
+    margin-bottom: 10px !important;
+  }
+  .first-page .image-articles .border-img {
+    margin-left: 50px !important;
+    width: 320px !important;
+    height: 450px !important;
+  }
+  .second-page .img-about .about-page .h1-about {
+    letter-spacing: 0.5rem !important;
+    font-size: 2rem !important;
+    transform: scale(1, 1.5) !important;
+  }
+  .second-page .img-about .about-page .para {
+    margin-top: -15px;
+    line-height: 1.4rem !important;
+    font-size: 1.1rem !important;
+  }
+  .second-page .img-about .about-page .cv-anshor {
+    margin-top: 15px !important;
+  }
+  .third-page .page-content {
+    width: 80% !important;
+  }
+  .fourth-page .chatbox {
+    top: 18% !important;
+    left: 18% !important;
+    width: 70% !important;
+  }
+}
+@media (max-width: 47em) {
+  header {
+    padding: 5px 5px 0 5px !important;
+  }
+  header nav {
+    width: 100% !important;
+    height: 70px !important;
+    padding: 0px !important;
+  }
+  header nav .header1 .nav-name, body header nav .navigation-bar ul li .nav-name {
+    font-size: 0.9rem !important;
+  }
+  header nav .navigation-bar {
+    display: flex;
+  }
+  header nav .navigation-bar ul {
+    gap: 1.2em !important;
+  }
+  header nav .navigation-bar ul li {
+    font-size: 1.2rem !important;
+  }
+  .first-page {
+    height: 100% !important;
+    padding-bottom: 30px;
+  }
+  .first-page .image-articles {
+    max-width: 100% !important;
+    margin-top: 70px !important;
+    grid-template-columns: 1fr !important;
+    grid-template-rows: repeat(2, 1fr);
+    display: grid;
+  }
+  .first-page .image-articles .article-bio {
+    margin-top: 0em !important;
+    margin-left: 0em !important;
+  }
+  .first-page .image-articles .article-bio .main-name {
+    font-size: 1.7rem !important;
+    letter-spacing: 4px !important;
+  }
+  .first-page .image-articles .article-bio h4 {
+    padding: 5px 10px !important;
+    letter-spacing: 1px !important;
+    margin-bottom: 30px !important;
+    font-size: 1.1rem !important;
+  }
+  .first-page .image-articles .article-bio .icons {
+    margin-top: 35px !important;
+    margin-bottom: 10px !important;
+  }
+  .first-page .image-articles .article-bio i {
+    font-size: 1.4em !important;
+    padding: 10px 25px 0px 10px !important;
+  }
+  .first-page .image-articles .border-img {
+    margin-left: 50px !important;
+    width: 270px !important;
+    height: 370px !important;
+  }
+  .second-page {
+    height: 100% !important;
+    padding: 10px;
+  }
+  .second-page .img-about {
+    width: 100% !important;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: 1fr !important;
+    gap: 0.5em !important;
+    margin-top: 35px;
+  }
+  .second-page .img-about .border-about-image {
+    width: 270px !important;
+    height: 370px !important;
+  }
+  .second-page .img-about .border-about-image img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 35px;
+    right: -30px;
+    border-radius: 3%;
+  }
+  .second-page .img-about .about-page .h1-about {
+    letter-spacing: 0.5rem !important;
+    font-size: 2rem !important;
+    transform: scale(1, 1.5) !important;
+  }
+  .second-page .img-about .about-page .para {
+    margin-top: -15px;
+    line-height: 1.4rem !important;
+    font-size: 1.1rem !important;
+  }
+  .second-page .img-about .about-page .cv-anshor {
+    margin-top: 15px !important;
+  }
+  .third-page {
+    height: 100% !important;
+    background-color: #fffaeb;
+    padding: 40px 0;
+  }
+  .third-page .page-content {
+    width: 80% !important;
+    max-width: 100% !important;
+    margin: auto;
+  }
+  .third-page .page-content .title {
+    text-align: center;
+    transform: scale(1.2, 1.2) !important;
+    padding-top: 10px !important;
+    font-size: 2.3rem !important;
+    letter-spacing: 2px !important;
+    font-weight: 400 !important;
+    text-shadow: 1px 1px 3px rgb(107, 107, 107);
+  }
+  .third-page .page-content .hr-2 {
+    margin: auto !important;
+    width: 10% !important;
+    margin-bottom: 20px !important;
+    margin-top: 20px !important;
+  }
+  .third-page .main-grid-projects {
+    height: 100% !important;
+    display: grid;
+    gap: 1em;
+    grid-template-rows: repeat(4, 1fr) !important;
+    grid-template-columns: 1fr !important;
+  }
+  .third-page .main-grid-projects .prj1 {
+    grid-row-start: 1;
+    grid-row-end: 2 !important;
+  }
+  .third-page .main-grid-projects .prj2 {
+    grid-column-start: 1 !important;
+    grid-column-end: 2 !important;
+  }
+  .third-page .main-grid-projects .prj2 .img-prj1 {
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+    opacity: 0.8;
+    border-top-left-radius: 2%;
+    border-top-right-radius: 2%;
+    box-shadow: 1px 1px 3px rgb(107, 107, 107);
+  }
+  .fourth-page {
+    height: 60vh;
+  }
+  .fourth-page .chatbox {
+    top: 18% !important;
+    left: 18% !important;
+    width: 70% !important;
+    height: 50% !important;
+  }
+  .fourth-page .chatbox .contact-content .contents {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr) !important;
+    grid-template-columns: 1fr !important;
+  }
+  .fourth-page .chatbox .contact-content span:nth-child(even) {
+    display: none !important;
+  }
+  .fourth-page .chatbox .img-contact {
+    display: none !important;
+  }
+  .fifth-page {
+    height: 100% !important;
+    width: 100%;
+  }
+  .fifth-page .content-fifth-page .front-back {
+    display: grid;
+    gap: 1em;
+    grid-template-rows: repeat(2, 1fr) !important;
+    grid-template-columns: 1fr !important;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

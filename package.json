@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "sass style.scss style.css --watch",
     "start": "sass projects-details-pages/project1-details.scss projects-details-pages/project1-details.css --watch",
-    "start": "sass projects-details-pages/project2-details.scss projects-details-pages/project2-details.css --watch"
+    "start": "sass projects-details-pages/project2-details.scss projects-details-pages/project2-details.css --watch",
+    "start": "sass style.scss style.css --watch"
   },
   "keywords": [],
   "author": "",

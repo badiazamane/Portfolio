@@ -1,21 +1,20 @@
 @use "../definition/definition";
 .first-page {
-  height: 85vh;
+  height: 65vh;
   width: 100%;
   margin: auto;
   position: relative;
   z-index: 0;
   .image-articles {
-    margin-top: 170px !important;
     display: grid;
     gap: 1.5rem;
     grid-template-columns: repeat(2, 1fr);
     place-items: center;
     max-width: 80%;
     margin: auto;
+    margin-top: 220px;
     .article-bio {
-      margin-top: 1em;
-      margin-left: 11em;
+      margin-left: 8rem;
       hr {
         @extend %hr;
       }
@@ -56,7 +55,7 @@
       }
       .icons {
         margin-top: 50px;
-        margin-left: -20px;
+        margin-left: 10px;
         @for $i from 1 through 5 {
           .icon-#{$i} {
             text-decoration: none;
@@ -178,13 +177,12 @@
     }
 
     .border-img {
-      margin-left: 80px;
-      margin-top: 50px;
       border: 7px solid #e9b949;
-      width: 330px;
-      height: 440px;
+      width: 320px;
+      height: 450px;
       border-radius: 3%;
       position: relative;
+      margin-left: 4rem;
       .my-img {
         border-radius: 3%;
         left: -55px;
@@ -192,6 +190,7 @@
         position: absolute;
         width: 110%;
         height: 100%;
+        object-fit: fill;
       }
     }
   }
