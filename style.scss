@@ -202,7 +202,7 @@ body {
         text-align: center;
         justify-content: center;
         font-size: 2.3rem;
-        margin-right: 32px;
+        margin-right: 10px;
       }
       .header1 {
         .nav-name {
@@ -227,9 +227,9 @@ body {
             display: flex;
             justify-content: flex-end !important;
             align-items: center;
-            padding: 20px;
 
             a {
+              padding: 20px;
               color: white !important;
             }
           }

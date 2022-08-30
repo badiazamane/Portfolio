@@ -1399,7 +1399,7 @@ body footer .footer1 .copyright {
     text-align: center;
     justify-content: center;
     font-size: 2.3rem;
-    margin-right: 32px;
+    margin-right: 10px;
   }
   header nav .header1 .nav-name, body header nav .navigation-bar ul li .nav-name {
     font-size: 1rem !important;
@@ -1423,9 +1423,9 @@ body footer .footer1 .copyright {
     display: flex;
     justify-content: flex-end !important;
     align-items: center;
-    padding: 20px;
   }
   header nav .navigation-bar ul li a {
+    padding: 20px;
     color: white !important;
   }
   header nav .navigation-bar li:hover {

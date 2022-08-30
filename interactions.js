@@ -9,6 +9,15 @@ window.addEventListener("scroll", function (event) {
     document.getElementById("nav-header").style.boxShadow = "none";
   }
 });
+
+function myFunction() {
+  var x = document.getElementById("nav-bar");
+  if (x.style.display === "flex") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "flex";
+  }
+}
 document.getElementById("about1").addEventListener("click", () => {
   window.setTimeout(() => {
     window.scrollTo(window.scrollX, window.scrollY - 110);
