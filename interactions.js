@@ -13,7 +13,7 @@ window.addEventListener("scroll", function (event) {
 function myFunction() {
   var x = document.getElementById("nav-bar");
   if (x.style.display === "none") {
-    x.style.display = "flex";
+    x.style.display = "flex !important";
   } else {
     x.style.display = "none";
   }
