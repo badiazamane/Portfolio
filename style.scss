@@ -395,6 +395,9 @@ body {
         padding: 5px !important;
       }
     }
+    .chatbox:before {
+      box-shadow: 0 60px 0 0 #fffaeb;
+    }
   }
   .fifth-page {
     height: 100% !important;
