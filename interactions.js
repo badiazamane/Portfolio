@@ -17,6 +17,7 @@ function myFunction() {
     x.style.visibility = "visible";
   } else {
     x.style.visibility = "hidden";
+    console.log("rani lhiiiiiiiih", x.style.visibility);
   }
 }
 document.getElementById("about1").addEventListener("click", () => {
