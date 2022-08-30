@@ -1405,6 +1405,7 @@ body footer .footer1 .copyright {
     font-size: 1rem !important;
   }
   header nav .navigation-bar {
+    visibility: hidden;
     position: absolute;
     top: 70px;
     right: 0;
@@ -1545,13 +1546,17 @@ body footer .footer1 .copyright {
     grid-column-start: 1 !important;
     grid-column-end: 2 !important;
   }
-  .third-page .main-grid-projects .prj2 .img-title .span1-prj2 {
+  .third-page .main-grid-projects .prj2 .img-title #span1-prj2 {
     top: 15% !important;
-    left: 5% !important;
+    left: 17% !important;
   }
-  .third-page .main-grid-projects .prj2 .img-title .span3-prj2 {
+  .third-page .main-grid-projects .prj2 .img-title #span3-prj2 {
     top: 45% !important;
-    left: 5% !important;
+    left: 17% !important;
+  }
+  .third-page .main-grid-projects .prj2 .prj1-title:after {
+    content: " ";
+    left: 15px !important;
   }
   .fourth-page {
     height: 60vh;

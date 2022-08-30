@@ -9,8 +9,6 @@ window.addEventListener("scroll", function (event) {
     document.getElementById("nav-header").style.boxShadow = "none";
   }
 });
-x = document.getElementById("nav-bar");
-x.style.visibility = "hidden";
 
 function myFunction() {
   var x = document.getElementById("nav-bar");

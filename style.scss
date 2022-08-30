@@ -210,6 +210,7 @@ body {
         }
       }
       .navigation-bar {
+        visibility: hidden;
         position: absolute;
         top: 70px;
         right: 0;
@@ -358,15 +359,19 @@ body {
         grid-column-start: 1 !important;
         grid-column-end: 2 !important;
         .img-title {
-          .span1-prj2 {
+          #span1-prj2 {
             top: 15% !important;
-            left: 5% !important;
+            left: 17% !important;
           }
 
-          .span3-prj2 {
+          #span3-prj2 {
             top: 45% !important;
-            left: 5% !important;
+            left: 17% !important;
           }
+        }
+        .prj1-title:after {
+          content: " ";
+          left: 15px !important;
         }
       }
     }
