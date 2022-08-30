@@ -1434,6 +1434,8 @@ body footer .footer1 .copyright {
   }
   header nav .navigation-bar li:hover a {
     color: black !important;
+    height: 100%;
+    width: 100%;
   }
   .first-page {
     height: 100% !important;
