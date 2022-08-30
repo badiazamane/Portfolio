@@ -12,11 +12,11 @@ window.addEventListener("scroll", function (event) {
 
 function myFunction() {
   var x = document.getElementById("nav-bar");
-  if (x.style.visibility === "visible") {
+  if (x.style.visibility === "hidden") {
     console.log("rani hna", x.style.visibility);
-    x.style.visibility = "visible";
-  } else {
     x.style.visibility = "hidden";
+  } else {
+    x.style.visibility = "visible";
     console.log("rani lhiiiiiiiih", x.style.visibility);
   }
 }
