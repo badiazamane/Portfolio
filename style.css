@@ -1428,7 +1428,7 @@ body footer .footer1 .copyright {
   header nav .navigation-bar ul li a {
     color: white !important;
   }
-  header nav .navigation-bar ul:hover li {
+  header nav .navigation-bar li:hover {
     background-color: rgb(255, 255, 255);
     color: #222222;
   }
