@@ -1432,6 +1432,9 @@ body footer .footer1 .copyright {
     background-color: rgb(255, 255, 255);
     color: #222222 !important;
   }
+  header nav .navigation-bar li:hover a {
+    color: black !important;
+  }
   .first-page {
     height: 100% !important;
     padding-bottom: 30px;

@@ -238,6 +238,9 @@ body {
         li:hover {
           background-color: rgb(255, 255, 255);
           color: #222222 !important;
+          a {
+            color: black !important;
+          }
         }
       }
     }
