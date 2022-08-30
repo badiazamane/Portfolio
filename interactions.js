@@ -14,7 +14,7 @@ function myFunction() {
   var x = document.getElementById("nav-bar");
   if (x.style.visibility === "hidden") {
     console.log("rani hna");
-    x.style.visibility = "visible !important";
+    x.style.visibility = "visible";
   } else {
     x.style.visibility = "hidden";
   }
