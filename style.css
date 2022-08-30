@@ -837,11 +837,11 @@ body main .third-page .main-grid-projects .prj2 .img-title .prj1-title {
 }
 body main .third-page .main-grid-projects .prj2 .img-title .span1-prj2 {
   top: 15% !important;
-  left: 20% !important;
+  left: 35% !important;
 }
 body main .third-page .main-grid-projects .prj2 .img-title .span3-prj2 {
   top: 45% !important;
-  left: 20% !important;
+  left: 35% !important;
 }
 body main .third-page .main-grid-projects .prj2 .img-title a {
   text-decoration: none !important;
@@ -1544,6 +1544,14 @@ body footer .footer1 .copyright {
   .third-page .main-grid-projects .prj2 {
     grid-column-start: 1 !important;
     grid-column-end: 2 !important;
+  }
+  .third-page .main-grid-projects .prj2 .img-title .span1-prj2 {
+    top: 15% !important;
+    left: 5% !important;
+  }
+  .third-page .main-grid-projects .prj2 .img-title .span3-prj2 {
+    top: 45% !important;
+    left: 5% !important;
   }
   .fourth-page {
     height: 60vh;

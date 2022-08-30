@@ -357,6 +357,17 @@ body {
       .prj2 {
         grid-column-start: 1 !important;
         grid-column-end: 2 !important;
+        .img-title {
+          .span1-prj2 {
+            top: 15% !important;
+            left: 5% !important;
+          }
+
+          .span3-prj2 {
+            top: 45% !important;
+            left: 5% !important;
+          }
+        }
       }
     }
   }
