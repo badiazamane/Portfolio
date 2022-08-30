@@ -1561,7 +1561,7 @@ body footer .footer1 .copyright {
     top: 18% !important;
     left: 18% !important;
     width: 70% !important;
-    height: 50% !important;
+    height: 60% !important;
   }
   .fourth-page .chatbox .contact-content .contents {
     display: grid;
@@ -1573,6 +1573,10 @@ body footer .footer1 .copyright {
   }
   .fourth-page .chatbox .img-contact {
     display: none !important;
+  }
+  .fourth-page .chatbox span {
+    font-size: 1.3rem !important;
+    padding: 5px !important;
   }
   .fifth-page {
     height: 100% !important;

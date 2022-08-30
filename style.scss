@@ -376,7 +376,7 @@ body {
       top: 18% !important;
       left: 18% !important;
       width: 70% !important;
-      height: 50% !important;
+      height: 60% !important;
       .contact-content {
         .contents {
           display: grid;
@@ -389,6 +389,10 @@ body {
       }
       .img-contact {
         display: none !important;
+      }
+      span {
+        font-size: 1.3rem !important;
+        padding: 5px !important;
       }
     }
   }
