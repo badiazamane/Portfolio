@@ -13,13 +13,18 @@ window.addEventListener("scroll", function (event) {
 function myFunction() {
   var x = document.getElementById("nav-bar");
   if (x.style.visibility === "visible") {
-    console.log("rani hna" + x.style.visibility);
     x.style.visibility = "hidden";
   } else {
     x.style.visibility = "visible";
-    console.log("rani lhiiiiiiiih", x.style.visibility);
   }
 }
+const ulclicked = document.getElementById("ul-id");
+
+ulclicked.addEventListener("click", function handleClick() {
+  var x = document.getElementById("nav-bar");
+  x.style.visibility = "hidden";
+});
+
 document.getElementById("about1").addEventListener("click", () => {
   window.setTimeout(() => {
     window.scrollTo(window.scrollX, window.scrollY - 110);
