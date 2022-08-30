@@ -12,7 +12,7 @@ window.addEventListener("scroll", function (event) {
 
 function myFunction() {
   var x = document.getElementById("nav-bar");
-  if (x.style.visibility === "hidden") {
+  if (x.style.visibility === "visible") {
     console.log("rani hna", x.style.visibility);
     x.style.visibility = "hidden";
   } else {
