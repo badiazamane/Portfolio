@@ -1428,10 +1428,8 @@ body footer .footer1 .copyright {
   header nav .navigation-bar ul li a {
     color: white !important;
   }
-  header nav .navigation-bar ul:hover {
-    background-color: rgb(255, 255, 255);
-  }
   header nav .navigation-bar ul:hover li {
+    background-color: rgb(255, 255, 255);
     color: #222222;
   }
   .first-page {
