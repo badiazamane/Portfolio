@@ -1579,7 +1579,7 @@ body footer .footer1 .copyright {
     padding: 5px !important;
   }
   .fourth-page .chatbox:before {
-    box-shadow: 0 60px 0 0 #fffaeb;
+    box-shadow: 0 60px 0 0 #fffaeb !important;
   }
   .fifth-page {
     height: 100% !important;
