@@ -12,10 +12,10 @@ window.addEventListener("scroll", function (event) {
 
 function myFunction() {
   var x = document.getElementById("nav-bar");
-  if (x.style.display === "none !important") {
-    x.style.display = "flex !important";
+  if (x.style.display === "hidden") {
+    x.style.display = "visible";
   } else {
-    x.style.display = "none !important";
+    x.style.display = "hidden";
   }
 }
 document.getElementById("about1").addEventListener("click", () => {

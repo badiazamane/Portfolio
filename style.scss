@@ -210,7 +210,7 @@ body {
         }
       }
       .navigation-bar {
-        display: none !important;
+        visibility: hidden;
         position: absolute;
         top: 70px;
         right: 0;

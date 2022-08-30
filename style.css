@@ -1405,7 +1405,7 @@ body footer .footer1 .copyright {
     font-size: 1rem !important;
   }
   header nav .navigation-bar {
-    display: none !important;
+    visibility: hidden;
     position: absolute;
     top: 70px;
     right: 0;
