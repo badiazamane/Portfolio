@@ -1430,7 +1430,7 @@ body footer .footer1 .copyright {
   }
   header nav .navigation-bar li:hover {
     background-color: rgb(255, 255, 255);
-    color: #222222;
+    color: #222222 !important;
   }
   .first-page {
     height: 100% !important;
