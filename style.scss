@@ -18,7 +18,9 @@ body {
       height: 100px;
       width: 80%;
       margin: auto;
-
+      .fa-bars {
+        display: none;
+      }
       .header1 {
         display: flex;
         align-items: center;
@@ -188,22 +190,54 @@ body {
 
 @media (max-width: 47em) {
   header {
-    padding: 5px 5px 0 5px !important;
+    padding: 5px 15px 0 15px !important;
     nav {
       width: 100% !important;
       height: 70px !important;
       padding: 0px !important;
+      position: relative;
+      .fa-bars {
+        display: flex !important;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        font-size: 2.3rem;
+        margin-right: 32px;
+      }
       .header1 {
         .nav-name {
-          font-size: 0.9rem !important;
+          font-size: 1rem !important;
         }
       }
       .navigation-bar {
-        display: flex;
+        // display: none !important;
+        position: absolute;
+        top: 70px;
+        right: 0;
+        width: 100%;
+        justify-content: flex-end;
         ul {
-          gap: 1.2em !important;
+          grid-template-columns: 1fr !important;
+          grid-template-rows: repeat(4, 1fr);
+          gap: 0em !important;
+          width: 50%;
+          background-color: black;
           li {
             font-size: 1.2rem !important;
+            display: flex;
+            justify-content: flex-end !important;
+            align-items: center;
+            padding: 20px;
+
+            a {
+              color: white !important;
+            }
+          }
+        }
+        ul:hover {
+          background-color: rgb(255, 255, 255);
+          li {
+            color: #222222;
           }
         }
       }
@@ -253,23 +287,17 @@ body {
 
   .second-page {
     height: 100% !important;
-    padding: 10px;
+    padding: 10px 25px 40px;
     .img-about {
       width: 100% !important;
-      grid-template-rows: repeat(2, 1fr);
+      grid-template-rows: 1fr;
       grid-template-columns: 1fr !important;
       gap: 0.5em !important;
       margin-top: 35px;
       .border-about-image {
-        width: 270px !important;
-        height: 370px !important;
+        display: none;
         img {
-          position: absolute;
-          width: 100%;
-          height: 100%;
-          bottom: 35px;
-          right: -30px;
-          border-radius: 3%;
+          display: none;
         }
       }
       .about-page {

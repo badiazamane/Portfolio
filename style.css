@@ -4,7 +4,7 @@ body header nav .header1 .nav-name, body header nav .navigation-bar ul li .nav-n
   font-weight: 550;
   letter-spacing: 7px;
   text-transform: capitalize;
-  transform: scale(1, 2);
+  transform: scale(1, 1.5);
   opacity: 0.8;
 }
 
@@ -181,6 +181,9 @@ body header nav {
   width: 80%;
   margin: auto;
 }
+body header nav .fa-bars {
+  display: none;
+}
 body header nav .header1, body header nav .navigation-bar ul li {
   display: flex;
   align-items: center;
@@ -226,7 +229,7 @@ body main .fifth-page .content-fifth-page h1, body main .fourth-page .chatbox .t
   font-weight: 550;
   letter-spacing: 7px;
   text-transform: capitalize;
-  transform: scale(1, 2);
+  transform: scale(1, 1.5);
   opacity: 0.8;
 }
 body main .fifth-page .content-fifth-page .hr-3, body main .fourth-page .chatbox .hr-2, body main .third-page .page-content .hr-2, body main .second-page .img-about .about-page .hr-2, body main .first-page .image-articles .article-bio hr, body main .fifth-page .content-fifth-page .front-back .back .subject-2 .hr-black, body main .fifth-page .content-fifth-page .front-back .back .subject-1 .hr-black, body main .fifth-page .content-fifth-page .front-back .front .subject-3 .hr-black, body main .fifth-page .content-fifth-page .front-back .front .subject-2 .hr-black, body main .fifth-page .content-fifth-page .front-back .front .subject-1 .hr-black, body main .fifth-page .content-fifth-page .front-back .back .subject-2 .hr-yellow, body main .fifth-page .content-fifth-page .front-back .back .subject-1 .hr-yellow, body main .fifth-page .content-fifth-page .front-back .front .subject-3 .hr-yellow, body main .fifth-page .content-fifth-page .front-back .front .subject-2 .hr-yellow, body main .fifth-page .content-fifth-page .front-back .front .subject-1 .hr-yellow {
@@ -304,7 +307,9 @@ body main .first-page .image-articles .article-bio {
   margin-left: 8rem;
 }
 body main .first-page .image-articles .article-bio .main-name {
-  text-shadow: 1px 1px 3px black;
+  font-size: 2.3rem !important;
+  letter-spacing: 3px;
+  text-shadow: 1px 1px 3px rgb(66, 66, 66);
   padding: 10px;
 }
 body main .first-page .image-articles .article-bio h4 {
@@ -492,7 +497,7 @@ body main .fifth-page .content-fifth-page h1, body main .fourth-page .chatbox .t
   font-weight: 550;
   letter-spacing: 7px;
   text-transform: capitalize;
-  transform: scale(1, 2);
+  transform: scale(1, 1.5);
   opacity: 0.8;
 }
 body main .fifth-page .content-fifth-page .hr-3, body main .fourth-page .chatbox .hr-2, body main .third-page .page-content .hr-2, body main .first-page .image-articles .article-bio hr, body main .second-page .img-about .about-page .hr-2, body main .fifth-page .content-fifth-page .front-back .back .subject-2 .hr-black, body main .fifth-page .content-fifth-page .front-back .back .subject-1 .hr-black, body main .fifth-page .content-fifth-page .front-back .front .subject-3 .hr-black, body main .fifth-page .content-fifth-page .front-back .front .subject-2 .hr-black, body main .fifth-page .content-fifth-page .front-back .front .subject-1 .hr-black, body main .fifth-page .content-fifth-page .front-back .back .subject-2 .hr-yellow, body main .fifth-page .content-fifth-page .front-back .back .subject-1 .hr-yellow, body main .fifth-page .content-fifth-page .front-back .front .subject-3 .hr-yellow, body main .fifth-page .content-fifth-page .front-back .front .subject-2 .hr-yellow, body main .fifth-page .content-fifth-page .front-back .front .subject-1 .hr-yellow {
@@ -628,7 +633,7 @@ body main .fifth-page .content-fifth-page h1, body main .fourth-page .chatbox .t
   font-weight: 550;
   letter-spacing: 7px;
   text-transform: capitalize;
-  transform: scale(1, 2);
+  transform: scale(1, 1.5);
   opacity: 0.8;
 }
 body main .fifth-page .content-fifth-page .hr-3, body main .fourth-page .chatbox .hr-2, body main .first-page .image-articles .article-bio hr, body main .second-page .img-about .about-page .hr-2, body main .third-page .page-content .hr-2, body main .fifth-page .content-fifth-page .front-back .back .subject-2 .hr-black, body main .fifth-page .content-fifth-page .front-back .back .subject-1 .hr-black, body main .fifth-page .content-fifth-page .front-back .front .subject-3 .hr-black, body main .fifth-page .content-fifth-page .front-back .front .subject-2 .hr-black, body main .fifth-page .content-fifth-page .front-back .front .subject-1 .hr-black, body main .fifth-page .content-fifth-page .front-back .back .subject-2 .hr-yellow, body main .fifth-page .content-fifth-page .front-back .back .subject-1 .hr-yellow, body main .fifth-page .content-fifth-page .front-back .front .subject-3 .hr-yellow, body main .fifth-page .content-fifth-page .front-back .front .subject-2 .hr-yellow, body main .fifth-page .content-fifth-page .front-back .front .subject-1 .hr-yellow {
@@ -1006,7 +1011,7 @@ body main .fifth-page .content-fifth-page h1, body main header nav .header1 .nav
   font-weight: 550;
   letter-spacing: 7px;
   text-transform: capitalize;
-  transform: scale(1, 2);
+  transform: scale(1, 1.5);
   opacity: 0.8;
 }
 body main .fifth-page .content-fifth-page .hr-3, body main .first-page .image-articles .article-bio hr, body main .second-page .img-about .about-page .hr-2, body main .third-page .page-content .hr-2, body main .fourth-page .chatbox .hr-2, body main .fifth-page .content-fifth-page .front-back .back .subject-2 .hr-black, body main .fifth-page .content-fifth-page .front-back .back .subject-1 .hr-black, body main .fifth-page .content-fifth-page .front-back .front .subject-3 .hr-black, body main .fifth-page .content-fifth-page .front-back .front .subject-2 .hr-black, body main .fifth-page .content-fifth-page .front-back .front .subject-1 .hr-black, body main .fifth-page .content-fifth-page .front-back .back .subject-2 .hr-yellow, body main .fifth-page .content-fifth-page .front-back .back .subject-1 .hr-yellow, body main .fifth-page .content-fifth-page .front-back .front .subject-3 .hr-yellow, body main .fifth-page .content-fifth-page .front-back .front .subject-2 .hr-yellow, body main .fifth-page .content-fifth-page .front-back .front .subject-1 .hr-yellow {
@@ -1168,7 +1173,7 @@ body main header nav .header1 .nav-name, body header nav .header1 main .nav-name
   font-weight: 550;
   letter-spacing: 7px;
   text-transform: capitalize;
-  transform: scale(1, 2);
+  transform: scale(1, 1.5);
   opacity: 0.8;
 }
 body main .first-page .image-articles .article-bio hr, body main .second-page .img-about .about-page .hr-2, body main .third-page .page-content .hr-2, body main .fourth-page .chatbox .hr-2, body main .fifth-page .content-fifth-page .hr-3, body main .fifth-page .content-fifth-page .front-back .front .subject-1 .hr-black, body main .fifth-page .content-fifth-page .front-back .front .subject-2 .hr-black, body main .fifth-page .content-fifth-page .front-back .front .subject-3 .hr-black, body main .fifth-page .content-fifth-page .front-back .back .subject-1 .hr-black, body main .fifth-page .content-fifth-page .front-back .back .subject-2 .hr-black, body main .fifth-page .content-fifth-page .front-back .front .subject-1 .hr-yellow, body main .fifth-page .content-fifth-page .front-back .front .subject-2 .hr-yellow, body main .fifth-page .content-fifth-page .front-back .front .subject-3 .hr-yellow, body main .fifth-page .content-fifth-page .front-back .back .subject-1 .hr-yellow, body main .fifth-page .content-fifth-page .front-back .back .subject-2 .hr-yellow {
@@ -1380,24 +1385,54 @@ body footer .footer1 .copyright {
 }
 @media (max-width: 47em) {
   header {
-    padding: 5px 5px 0 5px !important;
+    padding: 5px 15px 0 15px !important;
   }
   header nav {
     width: 100% !important;
     height: 70px !important;
     padding: 0px !important;
+    position: relative;
+  }
+  header nav .fa-bars {
+    display: flex !important;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 2.3rem;
+    margin-right: 32px;
   }
   header nav .header1 .nav-name, body header nav .navigation-bar ul li .nav-name {
-    font-size: 0.9rem !important;
+    font-size: 1rem !important;
   }
   header nav .navigation-bar {
-    display: flex;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    width: 100%;
+    justify-content: flex-end;
   }
   header nav .navigation-bar ul {
-    gap: 1.2em !important;
+    grid-template-columns: 1fr !important;
+    grid-template-rows: repeat(4, 1fr);
+    gap: 0em !important;
+    width: 50%;
+    background-color: black;
   }
   header nav .navigation-bar ul li {
     font-size: 1.2rem !important;
+    display: flex;
+    justify-content: flex-end !important;
+    align-items: center;
+    padding: 20px;
+  }
+  header nav .navigation-bar ul li a {
+    color: white !important;
+  }
+  header nav .navigation-bar ul:hover {
+    background-color: rgb(255, 255, 255);
+  }
+  header nav .navigation-bar ul:hover li {
+    color: #222222;
   }
   .first-page {
     height: 100% !important;
@@ -1439,26 +1474,20 @@ body footer .footer1 .copyright {
   }
   .second-page {
     height: 100% !important;
-    padding: 10px;
+    padding: 10px 25px 40px;
   }
   .second-page .img-about {
     width: 100% !important;
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: 1fr;
     grid-template-columns: 1fr !important;
     gap: 0.5em !important;
     margin-top: 35px;
   }
   .second-page .img-about .border-about-image {
-    width: 270px !important;
-    height: 370px !important;
+    display: none;
   }
   .second-page .img-about .border-about-image img {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    bottom: 35px;
-    right: -30px;
-    border-radius: 3%;
+    display: none;
   }
   .second-page .img-about .about-page .h1-about {
     letter-spacing: 0.5rem !important;
