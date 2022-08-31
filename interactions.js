@@ -11,19 +11,13 @@ window.addEventListener("scroll", function (event) {
 });
 
 function myFunction() {
-  var x = document.getElementById("nav-bar");
-  if (x.style.visibility === "visible") {
-    x.style.visibility = "hidden";
+  var y = document.getElementById("nav-bar");
+  if (y.style.visibility === "visible") {
+    y.style.visibility = "hidden";
   } else {
-    x.style.visibility = "visible";
+    y.style.visibility = "visible";
   }
 }
-
-const ulclicked = document.getElementById("ul-id");
-ulclicked.addEventListener("click", function handleClick() {
-  var x = document.getElementById("nav-bar");
-  x.style.visibility = "hidden";
-});
 
 document.getElementById("about1").addEventListener("click", () => {
   window.setTimeout(() => {
@@ -48,13 +42,32 @@ document.getElementById("contact1").addEventListener("click", () => {
   }, 0);
 });
 
-// window.addEventListener("resize", function () {
-// const ulclicked = document.getElementById("ul-id");
-// if (window.matchMedia("(max-width: 47em)").matches) {
-// ulclicked.addEventListener("click", function handleClick() {
-// ulclicked.style.visibility = "hidden";
-// });
+window.addEventListener("resize", function () {
+  var z = document.getElementById("nav-bar");
+  if (window.matchMedia("(max-width: 47em)").matches) {
+    const ulclicked = document.getElementById("ul-id");
+    ulclicked.addEventListener("click", function handleClick() {
+      z.style.visibility = "hidden";
+      console.log("rani hnaaaaaaa");
+    });
+  } else {
+    console.log("rani lhiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiih");
+    z.style.visibility = "visible";
+  }
+});
+// function myFunction1(x) {
+//   var z = document.getElementById("nav-bar");
+//   if (x.matches) {
+//     const ulclicked = document.getElementById("ul-id");
+//     ulclicked.addEventListener("click", function handleClick() {
+//       z.style.visibility = "hidden";
+//       console.log("rani hnaaaaaaa");
+//     });
 //   } else {
-//     ulclicked.style.visibility = "visible";
+//     console.log("rani lhiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiih");
+//     z.style.visibility = "visible";
 //   }
-// });
+// }
+// var x = window.matchMedia("(max-width: 47em)");
+// x.addListener(myFunction1); // Attach listener function on state changes
+// myFunction1(x); // Call listener function at run time
