@@ -18,26 +18,20 @@ function myFunction() {
     x.style.visibility = "visible";
   }
 }
-var width = Math.max(
-  document.documentElement.clientWidth,
-  window.innerWidth || 0
-);
-console.log("wwwwwwwwidth", width);
+
 window.addEventListener("resize", function () {
-  if (window.matchMedia("(min-width: 500px)").matches) {
+  if (window.matchMedia("(max-width: 47em)").matches) {
+    const ulclicked = document.getElementById("ul-id");
+
+    ulclicked.addEventListener("click", function handleClick() {
+      var x = document.getElementById("nav-bar");
+      x.style.visibility = "hidden";
+    });
     console.log("Screen width is at least 500px");
-  } else {
-    console.log("Screen less than 500px");
   }
 });
 
 if (window.screen.width <= 752) {
-  const ulclicked = document.getElementById("ul-id");
-
-  ulclicked.addEventListener("click", function handleClick() {
-    var x = document.getElementById("nav-bar");
-    x.style.visibility = "hidden";
-  });
 }
 document.getElementById("about1").addEventListener("click", () => {
   window.setTimeout(() => {
