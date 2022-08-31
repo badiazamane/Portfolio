@@ -203,7 +203,7 @@ body header nav .navigation-bar {
   display: flex;
 }
 body header nav .navigation-bar ul {
-  visibility: visible !important;
+  visibility: visible;
   list-style: none;
   display: grid;
   gap: 1.5em;

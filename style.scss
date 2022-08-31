@@ -41,7 +41,7 @@ body {
       .navigation-bar {
         display: flex;
         ul {
-          visibility: visible !important;
+          visibility: visible;
           list-style: none;
           display: grid;
           gap: 1.5em;
