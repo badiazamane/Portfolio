@@ -1,10 +1,11 @@
 @use "../definition/definition";
 .first-page {
-  height: 65vh;
+  height: 100%;
   width: 100%;
   margin: auto;
   position: relative;
   z-index: 0;
+  padding-bottom: 80px;
   .image-articles {
     display: grid;
     gap: 1.5rem;

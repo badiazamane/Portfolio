@@ -1,16 +1,18 @@
 @use "../definition/definition";
 .third-page {
-  height: 95vh;
+  height: 100%;
   width: 100%;
   background-color: #fffaeb;
+  padding: 15px 0 50px 0;
   .page-content {
     width: 60%;
+
     margin: auto;
     .title {
       @extend %h1-style;
       text-align: center;
       transform: scale(1.2, 1.2) !important;
-      padding-top: 10px !important;
+      // padding-top: 10px !important;
       font-size: 2.3rem !important;
       letter-spacing: 2px !important;
       font-weight: 400 !important;
@@ -20,12 +22,12 @@
       @extend %hr;
       margin: auto !important;
       width: 10% !important;
-      margin-bottom: 20px !important;
-      margin-top: 20px !important;
+      margin-bottom: 15px !important;
+      margin-top: 15px !important;
     }
   }
   .main-grid-projects {
-    height: 63vh;
+    height: 100%;
     display: grid;
     gap: 1em;
     grid-template-rows: repeat(2, 1fr);

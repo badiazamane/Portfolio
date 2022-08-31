@@ -5,6 +5,7 @@ $font-family-headers-four: Arial, Helvetica, sans-serif;
 
 body {
   background-color: #fffaeb;
+
   header {
     position: fixed;
     top: 0;
@@ -74,7 +75,7 @@ body {
     @import "portfolio-pages/fifth-page";
   }
   footer {
-    height: 27vh;
+    height: 100%;
     width: 100%;
     background-color: #222222;
     .footer1 {
