@@ -13,8 +13,11 @@ window.addEventListener("scroll", function (event) {
 function myFunction() {
   var y = document.getElementById("nav-bar");
   if (y.style.visibility === "visible") {
+    console.log("brrrrrrrrrrrrrrrr");
     y.style.visibility = "hidden";
   } else {
+    console.log("brrrrrrrrrrrrrrrr");
+
     y.style.visibility = "visible";
   }
 }
@@ -41,16 +44,20 @@ document.getElementById("contact1").addEventListener("click", () => {
     window.scrollTo(window.scrollX, window.scrollY - 120);
   }, 0);
 });
-
 window.addEventListener("resize", function () {
+  var w = window.innerWidth;
+  // console.log(w);
   var z = document.getElementById("nav-bar");
-  if (window.matchMedia("(max-width: 700px)").matches) {
+  if (w < 752) {
     const ulclicked = document.getElementById("ul-id");
     ulclicked.addEventListener("click", function handleClick() {
+      console.log("rani bdit");
+      console.log(w);
       z.style.visibility = "hidden";
       console.log("rani hnaaaaaaa");
     });
   } else {
+    console.log(w);
     console.log("rani lhiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiih");
     z.style.visibility = "visible";
   }
