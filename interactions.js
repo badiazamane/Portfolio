@@ -18,7 +18,7 @@ function myFunction() {
     x.style.visibility = "visible";
   }
 }
-if (window.screen.width <= "47em") {
+if (window.screen.width <= 752) {
   // Resolution is 1024x768 or above
 
   const ulclicked = document.getElementById("ul-id");
