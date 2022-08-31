@@ -19,16 +19,16 @@ function myFunction() {
   }
 }
 
-window.addEventListener("resize", function () {
-  const ulclicked = document.getElementById("ul-id");
-  if (window.matchMedia("(max-width: 47em)").matches) {
-    ulclicked.addEventListener("click", function handleClick() {
-      ulclicked.style.visibility = "hidden";
-    });
-  } else {
-    ulclicked.style.visibility = "visible";
-  }
+// window.addEventListener("resize", function () {
+const ulclicked = document.getElementById("ul-id");
+// if (window.matchMedia("(max-width: 47em)").matches) {
+ulclicked.addEventListener("click", function handleClick() {
+  ulclicked.style.visibility = "hidden";
 });
+//   } else {
+//     ulclicked.style.visibility = "visible";
+//   }
+// });
 
 document.getElementById("about1").addEventListener("click", () => {
   window.setTimeout(() => {
