@@ -18,12 +18,13 @@ function myFunction() {
     x.style.visibility = "visible";
   }
 }
-const ulclicked = document.getElementById("ul-id");
 
+const ulclicked = document.getElementById("ul-id");
 ulclicked.addEventListener("click", function handleClick() {
   var x = document.getElementById("nav-bar");
   x.style.visibility = "hidden";
 });
+
 document.getElementById("about1").addEventListener("click", () => {
   window.setTimeout(() => {
     window.scrollTo(window.scrollX, window.scrollY - 110);
