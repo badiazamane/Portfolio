@@ -44,7 +44,7 @@ document.getElementById("contact1").addEventListener("click", () => {
 
 window.addEventListener("resize", function () {
   var z = document.getElementById("nav-bar");
-  if (window.matchMedia("(max-width: 47em)").matches) {
+  if (window.matchMedia("(max-width: 700px)").matches) {
     const ulclicked = document.getElementById("ul-id");
     ulclicked.addEventListener("click", function handleClick() {
       z.style.visibility = "hidden";
