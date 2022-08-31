@@ -19,15 +19,16 @@ function myFunction() {
   }
 }
 
-if (window.matchMedia("(max-width: 47em)").matches) {
-  const ulclicked = document.getElementById("ul-id");
+window.addEventListener("resize", function () {
+  if (window.matchMedia("(max-width: 47em)").matches) {
+    const ulclicked = document.getElementById("ul-id");
 
-  ulclicked.addEventListener("click", function handleClick() {
-    var x = document.getElementById("nav-bar");
-    x.style.visibility = "hidden";
-  });
-  console.log("Screen width is at least 500px");
-}
+    ulclicked.addEventListener("click", function handleClick() {
+      var x = document.getElementById("nav-bar");
+      x.style.visibility = "hidden";
+    });
+  }
+});
 
 document.getElementById("about1").addEventListener("click", () => {
   window.setTimeout(() => {
