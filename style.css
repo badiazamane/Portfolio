@@ -1503,6 +1503,7 @@ body footer .footer1 .copyright {
     transform: scale(1, 1.5) !important;
   }
   .second-page .img-about .about-page .para {
+    padding: 10px;
     margin-top: -15px;
     line-height: 1.4rem !important;
     font-size: 1.1rem !important;
