@@ -13,14 +13,25 @@ window.addEventListener("scroll", function (event) {
 function myFunction() {
   var y = document.getElementById("nav-bar");
   if (y.style.visibility === "visible") {
-    console.log("brrrrrrrrrrrrrrrr");
     y.style.visibility = "hidden";
   } else {
-    console.log("brrrrrrrrrrrrrrrr");
-
     y.style.visibility = "visible";
   }
 }
+
+window.addEventListener("resize", function () {
+  var w = window.innerWidth;
+  console.log(w);
+  var z = document.getElementById("nav-bar");
+  if (w < 752) {
+    const ulclicked = document.getElementById("ul-id");
+    ulclicked.addEventListener("click", function handleClick() {
+      z.style.visibility = "hidden";
+    });
+  } else {
+    z.style.visibility = "visible";
+  }
+});
 
 document.getElementById("about1").addEventListener("click", () => {
   window.setTimeout(() => {
@@ -44,22 +55,18 @@ document.getElementById("contact1").addEventListener("click", () => {
     window.scrollTo(window.scrollX, window.scrollY - 120);
   }, 0);
 });
+
 window.addEventListener("resize", function () {
   var w = window.innerWidth;
-  // console.log(w);
   var z = document.getElementById("nav-bar");
-  if (w < 752) {
+  if (w > 752) {
     const ulclicked = document.getElementById("ul-id");
     ulclicked.addEventListener("click", function handleClick() {
-      console.log("rani bdit");
-      console.log(w);
-      z.style.visibility = "hidden";
-      console.log("rani hnaaaaaaa");
+      z.style.visibility = "visible";
+      console.log("fffffffff");
     });
   } else {
-    console.log(w);
-    console.log("rani lhiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiih");
-    z.style.visibility = "visible";
+    z.style.visibility = "hidden";
   }
 });
 // function myFunction1(x) {
