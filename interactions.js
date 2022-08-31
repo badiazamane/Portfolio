@@ -18,13 +18,16 @@ function myFunction() {
     x.style.visibility = "visible";
   }
 }
-const ulclicked = document.getElementById("ul-id");
+if (window.screen.width <= "47em") {
+  // Resolution is 1024x768 or above
 
-ulclicked.addEventListener("click", function handleClick() {
-  var x = document.getElementById("nav-bar");
-  x.style.visibility = "hidden";
-});
+  const ulclicked = document.getElementById("ul-id");
 
+  ulclicked.addEventListener("click", function handleClick() {
+    var x = document.getElementById("nav-bar");
+    x.style.visibility = "hidden";
+  });
+}
 document.getElementById("about1").addEventListener("click", () => {
   window.setTimeout(() => {
     window.scrollTo(window.scrollX, window.scrollY - 110);
