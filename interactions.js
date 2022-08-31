@@ -20,15 +20,9 @@ function myFunction() {
 }
 
 window.addEventListener("resize", function () {
-  if (window.matchMedia("(max-width: 47em)").matches) {
+  if (window.matchMedia("(min-width: 47em)").matches) {
     const ulclicked = document.getElementById("ul-id");
-
-    ulclicked.addEventListener("click", function handleClick() {
-      var x = document.getElementById("nav-bar");
-      x.style.visibility = "hidden";
-    });
-  } else {
-    x.style.visibility = "visible";
+    ulclicked.style.visibility = "visible";
   }
 });
 
