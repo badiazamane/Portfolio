@@ -23,7 +23,7 @@ window.addEventListener("resize", function () {
   var w = window.innerWidth;
   console.log(w);
   var z = document.getElementById("nav-bar");
-  if (w < 752) {
+  if (w < 850) {
     const ulclicked = document.getElementById("ul-id");
     ulclicked.addEventListener("click", function handleClick() {
       z.style.visibility = "hidden";
@@ -59,7 +59,7 @@ document.getElementById("contact1").addEventListener("click", () => {
 window.addEventListener("resize", function () {
   var w = window.innerWidth;
   var z = document.getElementById("nav-bar");
-  if (w > 752) {
+  if (w > 850) {
     const ulclicked = document.getElementById("ul-id");
     ulclicked.addEventListener("click", function handleClick() {
       z.style.visibility = "visible";

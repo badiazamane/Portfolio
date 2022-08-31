@@ -1383,7 +1383,7 @@ body footer .footer1 .copyright {
     width: 70% !important;
   }
 }
-@media (max-width: 47em) {
+@media (max-width: 53.125em) {
   header {
     padding: 5px 15px 0 15px !important;
   }
