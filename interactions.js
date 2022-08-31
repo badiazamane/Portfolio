@@ -19,20 +19,16 @@ function myFunction() {
   }
 }
 
-window.addEventListener("resize", function () {
-  if (window.matchMedia("(max-width: 47em)").matches) {
-    const ulclicked = document.getElementById("ul-id");
+if (window.matchMedia("(max-width: 47em)").matches) {
+  const ulclicked = document.getElementById("ul-id");
 
-    ulclicked.addEventListener("click", function handleClick() {
-      var x = document.getElementById("nav-bar");
-      x.style.visibility = "hidden";
-    });
-    console.log("Screen width is at least 500px");
-  }
-});
-
-if (window.screen.width <= 752) {
+  ulclicked.addEventListener("click", function handleClick() {
+    var x = document.getElementById("nav-bar");
+    x.style.visibility = "hidden";
+  });
+  console.log("Screen width is at least 500px");
 }
+
 document.getElementById("about1").addEventListener("click", () => {
   window.setTimeout(() => {
     window.scrollTo(window.scrollX, window.scrollY - 110);
@@ -44,13 +40,11 @@ document.getElementById("projects-id").addEventListener("click", () => {
   }, 2);
 });
 document.getElementById("contact-id").addEventListener("click", () => {
-  console.log("Third page clicked");
   window.setTimeout(() => {
     window.scrollTo(window.scrollX, window.scrollY - 120);
   }, 0);
 });
 document.getElementById("contact1").addEventListener("click", () => {
-  console.log("Third page clicked");
   window.setTimeout(() => {
     window.scrollTo(window.scrollX, window.scrollY - 120);
   }, 0);
