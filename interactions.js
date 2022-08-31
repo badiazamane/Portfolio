@@ -18,9 +18,16 @@ function myFunction() {
     x.style.visibility = "visible";
   }
 }
-if (window.screen.width <= 752) {
-  // Resolution is 1024x768 or above
 
+window.addEventListener("resize", function () {
+  if (window.matchMedia("(min-width: 500px)").matches) {
+    console.log("Screen width is at least 500px");
+  } else {
+    console.log("Screen less than 500px");
+  }
+});
+
+if (window.screen.width <= 752) {
   const ulclicked = document.getElementById("ul-id");
 
   ulclicked.addEventListener("click", function handleClick() {
