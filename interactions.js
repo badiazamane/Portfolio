@@ -27,6 +27,8 @@ window.addEventListener("resize", function () {
       var x = document.getElementById("nav-bar");
       x.style.visibility = "hidden";
     });
+  } else {
+    x.style.visibility = "visible";
   }
 });
 
