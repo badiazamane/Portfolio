@@ -18,7 +18,11 @@ function myFunction() {
     x.style.visibility = "visible";
   }
 }
-
+var width = Math.max(
+  document.documentElement.clientWidth,
+  window.innerWidth || 0
+);
+console.log("wwwwwwwwidth", width);
 window.addEventListener("resize", function () {
   if (window.matchMedia("(min-width: 500px)").matches) {
     console.log("Screen width is at least 500px");
