@@ -101,7 +101,7 @@ body {
       }
     }
     .details {
-      margin-top: 50px;
+      // margin-top: 50px;
       display: grid;
       grid-template-columns: 20% 75%;
       gap: 3rem;
@@ -112,7 +112,7 @@ body {
         text-align: center;
       }
       .details-paragraph {
-        padding-bottom: 300px;
+        padding-bottom: 50px;
         line-height: 1.5;
       }
     }
