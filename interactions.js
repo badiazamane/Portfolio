@@ -35,12 +35,12 @@ window.addEventListener("resize", function () {
 
 document.getElementById("about1").addEventListener("click", () => {
   window.setTimeout(() => {
-    window.scrollTo(window.scrollX, window.scrollY - 90);
+    window.scrollTo(window.scrollX, window.scrollY - 100);
   }, 0);
 });
 document.getElementById("projects-id").addEventListener("click", () => {
   window.setTimeout(() => {
-    window.scrollTo(window.scrollX, window.scrollY - 110);
+    window.scrollTo(window.scrollX, window.scrollY - 100);
   }, 2);
 });
 document.getElementById("contact-id").addEventListener("click", () => {
@@ -50,7 +50,7 @@ document.getElementById("contact-id").addEventListener("click", () => {
 });
 document.getElementById("contact1").addEventListener("click", () => {
   window.setTimeout(() => {
-    window.scrollTo(window.scrollX, window.scrollY - 100);
+    window.scrollTo(window.scrollX, window.scrollY - 120);
   }, 0);
 });
 
