@@ -48,11 +48,6 @@ document.getElementById("contact-id").addEventListener("click", () => {
     window.scrollTo(window.scrollX, window.scrollY - 90);
   }, 0);
 });
-document.getElementById("contact1").addEventListener("click", () => {
-  window.setTimeout(() => {
-    window.scrollTo(window.scrollX, window.scrollY - 120);
-  }, 0);
-});
 
 window.addEventListener("resize", function () {
   var w = window.innerWidth;
@@ -61,7 +56,6 @@ window.addEventListener("resize", function () {
     const ulclicked = document.getElementById("ul-id");
     ulclicked.addEventListener("click", function handleClick() {
       z.style.visibility = "visible";
-      console.log("fffffffff");
     });
   } else {
     z.style.visibility = "hidden";
@@ -83,3 +77,11 @@ window.addEventListener("resize", function () {
 // var x = window.matchMedia("(max-width: 47em)");
 // x.addListener(myFunction1); // Attach listener function on state changes
 // myFunction1(x); // Call listener function at run time
+var w = window.innerWidth;
+var z = document.getElementById("nav-bar");
+if (w < 850) {
+  const ulclicked = document.getElementById("ul-id");
+  ulclicked.addEventListener("click", function handleClick() {
+    z.style.visibility = "hidden";
+  });
+}
