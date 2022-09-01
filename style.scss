@@ -10,13 +10,13 @@ body {
     position: fixed;
     top: 0;
     z-index: 2;
-    padding: 10px 20px;
     width: 100%;
     margin: auto;
     nav {
       display: flex;
       justify-content: space-between;
-      height: 100px;
+      height: 100%;
+      padding: 30px;
       width: 80%;
       margin: auto;
       .fa-bars {

@@ -35,24 +35,22 @@ window.addEventListener("resize", function () {
 
 document.getElementById("about1").addEventListener("click", () => {
   window.setTimeout(() => {
-    window.scrollTo(window.scrollX, window.scrollY - 110);
+    window.scrollTo(window.scrollX, window.scrollY - 90);
   }, 0);
 });
 document.getElementById("projects-id").addEventListener("click", () => {
   window.setTimeout(() => {
-    window.scrollTo(window.scrollX, window.scrollY - 120);
+    window.scrollTo(window.scrollX, window.scrollY - 110);
   }, 2);
 });
 document.getElementById("contact-id").addEventListener("click", () => {
-  console.log("Third page clicked");
   window.setTimeout(() => {
-    window.scrollTo(window.scrollX, window.scrollY - 120);
+    window.scrollTo(window.scrollX, window.scrollY - 90);
   }, 0);
 });
 document.getElementById("contact1").addEventListener("click", () => {
-  console.log("Third page clicked");
   window.setTimeout(() => {
-    window.scrollTo(window.scrollX, window.scrollY - 120);
+    window.scrollTo(window.scrollX, window.scrollY - 100);
   }, 0);
 });
 

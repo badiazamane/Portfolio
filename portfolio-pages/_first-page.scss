@@ -1,6 +1,6 @@
 @use "../definition/definition";
 .first-page {
-  height: 100%;
+  height: 100% !important;
   width: 100%;
   margin: auto;
   position: relative;
@@ -13,7 +13,7 @@
     place-items: center;
     max-width: 80%;
     margin: auto;
-    margin-top: 220px;
+    margin-top: 200px;
     .article-bio {
       margin-left: 8rem;
       hr {
