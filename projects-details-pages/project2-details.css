@@ -180,7 +180,7 @@ body header nav .navigation-bar ul li a:hover {
   color: #e9b949;
 }
 body main {
-  padding-top: 100px;
+  padding-top: 120px;
   height: 100%;
   max-width: 80%;
   margin: 20px 0;
@@ -214,6 +214,7 @@ body main .tools .tools-names {
   line-height: 1.5;
 }
 body main .details {
+  margin-top: 20px;
   display: grid;
   grid-template-columns: 20% 75%;
   gap: 3rem;
